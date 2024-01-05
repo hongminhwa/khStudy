@@ -1,0 +1,109 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>Insert title here</title>
+<%@ include file="../include/header.jsp" %>
+<style type="text/css">
+.title {
+  margin-top: 90px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600
+}
+
+body {
+	background-color: #F5FFFA;
+}
+.home h2{
+	margin-top: 70px;
+	text-align: center; 
+	font-family: brush script mt;
+ 	color:blue;
+}
+.home a{
+	text-decoration: none;
+	color: black;
+}
+.header {
+	display: float;
+}
+
+.container {
+   position: relative; 
+   bottom: 600px; 
+   left: -240px;
+}
+
+.container p{ 
+	font-size: 50px;
+}
+
+
+
+</style>
+<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+</head>
+<div class="home"> 
+<h2 style="font-size: 100px;"><a href="Index2.jsp">hyehwaPlate</a></h2><br><br>
+<hr> 
+</div>
+<body>  
+<div class="header">  
+
+<img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20160502_57%2F1462162170818El4cb_JPEG%2F176452533950_0.jpeg" style="width: 600px; height: 300px;">
+<img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20160502_61%2F1462162171136YQVXx_JPEG%2F176452533950_2.jpeg" style="width: 600px; height: 300px; "> 
+<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA0MDZfMjcg%2FMDAxNjgwNzkzMDgxMjU3.ReqUwT_0s0MU9UXA9Ag13kgqfT22NGN2HF8wlppHmAUg.yhljGPtq_DXX1kODm_bAwnzzosCawpGncCgOaK85HX0g.JPEG.pure_o_o%2F4.jpg" style="width: 600px; height: 300px; ">
+<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzAyMDdfMjg0%2FMDAxNjc1NzAxODAzNzY2.00XFBGoC6DaCPIwftmdmXuGZ9ZP_NS0ZzQV57EkKlG8g.uluho1SwsNtxB5L1YLeZEkH9mGHJ8LKf7neT_74f0rkg.JPEG.loveu2075%2F%25C7%25FD%25C8%25AD_%25B0%25C7%25B0%25AD%25C7%25D1%25BB%25A7_%252829%2529.jpg" style="width: 600px; height: 300px; ">
+<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzAyMTBfMjUx%2FMDAxNjc1OTk1ODA5NDU0.OTbEafVfdcEMK4p1rJ_3BOh0AS0B9rMULlbSzH4Hdr8g.klA2_B01EdPGPNdPMxO0FLjFabU_mDqg6UK_jkdWfNsg.JPEG.5flowereun%2F20230210%25A3%25DF091443.jpg" style="width: 600px;  height: 300px;">
+</div>
+
+<div  align="right" class="map">
+
+
+
+
+<div id="daumRoughmapContainer1682609458888" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+3. 실행 스크립트
+
+<script charset="UTF-8">
+	new daum.roughmap.Lander({
+		"timestamp" : "1682609458888",
+		"key" : "2em2g",
+		"mapWidth" : "800",
+		"mapHeight" : "800"
+	}).render();
+</script>
+</div>
+
+<div class="container"> 
+<h1 style="text-align: center; font-size: 85px; ">건강한빵</h1>
+<hr>
+<p>주소 서울 종로구 성균관로1길 6-6  </p>
+<p>혜화역 4번출구에서 383m</p>
+<p>주차공간 없음</p>
+<p> 11:00~22:00  일요일 휴무</p> 
+<p>전화번호 02-6494-0049</p>
+<p>메뉴</p>
+<p>내피밤 파운드 2500원 </p>
+<p>레몬 파운드 2000원</p> 
+<p>사랑해! 다쿠아즈 18000원</p>
+<p>우유식빵 2800원</p>
+<p>초코식빵 4500원</p> 
+<p>매이플 식빵 3500원</p>
+<hr> 
+</div>
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+package ch07;
+
+public class TelevisionTest {
+		 public static void main(String[] args) {
+			   Television tv = new Television();  // 객체를 생서하여 메모리에 올림. 인스턴스 화 
+			   System.out.println(tv);
+			   
+			   
+		}
+}

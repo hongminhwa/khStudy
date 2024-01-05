@@ -1,0 +1,18 @@
+package ch07;
+
+public class RadioTest { 
+	
+	
+	public static void main(String[] args) {
+	  Radio kbs = new Radio(); 
+	  kbs.channel = 89.1; 
+	  kbs.volume = 12; 
+	  kbs.onoff = true; 
+	  System.out.println("라디오 채널은 " + kbs.channel + "이고 볼륨의 크기는 "
+	  +  kbs.volume + "이고 라디오의 전원은 " + kbs.onoff + "입니다");
+	  
+	  
+	  
+		 
+} 
+}

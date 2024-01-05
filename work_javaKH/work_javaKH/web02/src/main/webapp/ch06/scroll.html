@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="../include/jquery-3.63.min.js"> </script>
+<style type="text/css">
+#slidemenu {
+	background: #12cf3d; 
+	position: absolute;
+	width: 2oopx;
+	top: 50px;
+	right: 10px;
+}
+</style>
+<script type="text/javascript">
+$(function() {
+	//배너의 현재 좌표값 저장(top의 좌표)
+	var currentPosition = parseInt($("#slidemenu").css("top")); 
+	$(window).scroll(function() {
+		//스크롤바의 좌표를 저장
+		var position = $(window).scrollTop(); 
+		console.log("스크롤바의 좌표: " + position);
+		//top (y좌표)의 값을 현재 스크롤바의 위치로 이동(1초 동안 애니메이션 효과 )
+		$("#slidemenu").stop().animate({
+			"top": position + currentPosition + "px" 
+		}, 500); 	
+		})	
+});
+
+
+</script>
+</head>
+<body> 
+<h3>슬라이드 메뉴</h3>
+<div id="text"> 스크롤해도 이미지가 계속 보이게 한다.스크롤해도 이미지가 계속 보이게 한다.
+스크롤해도 이미지가 계속 보이게 한다.스크롤해도 이미지가 계속 보이게 한다.스크롤해도 이미지가 계속 보이게 한다.
+스크롤해도 이미지가 계속 보이게 한다.스크롤해도 이미지가 계속 보이게 한다.스크롤해도 이미지가 계속 보이게 한다.
+스크롤해도 이미지가 계속 보이게 한다.스크롤해도 이미지가 계속 보이게 한다.<br> 
+ </div>
+ <div id="sidemenu">슬라이드 메뉴 <br> 
+ <img alt="" src="../images/tomato.jpg" width="200px">
+ 
+ 
+ 
+ </div>
+
+</body>
+</html>

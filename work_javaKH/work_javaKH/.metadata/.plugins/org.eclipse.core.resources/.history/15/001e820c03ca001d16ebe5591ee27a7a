@@ -1,0 +1,543 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="../include/jquery-3.6.3.min.js"></script>
+<%@ include file="../include/header.jsp" %>
+<style type="text/css">
+.rice {
+	display: flex; 
+	position: relative; 
+	left: 70px;
+
+}
+
+.soup {
+	  display: flex; 
+	  position: relative; 
+	  bottom: 250px;
+	  left: 850px;	
+	
+
+}
+.seafood {
+	display: flex; 
+	position: relative; 
+	left:1650px;
+	bottom: 500px;
+
+}
+.meat {
+	display: flex; 
+	position: relative; 
+	bottom: 450px;
+ 	left: 70px;
+}
+.noodle {
+	display: flex;
+	position: relative; 
+	left: 850px;
+	bottom: 700px;
+
+}
+.snack {
+	display: flex; 
+	position: relative; 
+	left: 1650px;
+	bottom: 950px;
+
+}
+.western {
+    display: flex; 
+    position: relative; 
+    left: 70px;
+    bottom: 840px;
+
+}
+.western1 {
+	display: flex; 
+	position: relative; 
+	left: 630px;
+	bottom: 1100px;	
+}
+.western2 {
+	display: flex; 
+	position: relative; 
+	left: 1230px; 
+	bottom: 1353px; 
+}
+.western3 {
+    display: flex; 
+    position: relative; 
+    left: 1800px;
+    bottom: 1610px;
+}
+.eastern1 {
+	display: flex;
+	position: relative; 
+	left: 67px; 
+	bottom: 1542px;
+}
+
+.eastern2 {
+   display: flex; 
+   position: relative;
+   left: 640px;
+   bottom: 1794px;  
+}
+.eastern3 {
+	display: flex; 
+	position: relative;
+	left: 1244px; 
+	bottom: 2040px;
+}
+.eastern4 {
+	display: flex;
+	position: relative;
+	left: 1830px;
+	bottom: 2290px;
+
+}
+
+
+.alchol {
+	display: flex; 
+    position: relative; 
+    left: 200px; 
+	bottom: 2010px;
+
+}
+.alchol1 {
+	   display: flex; 
+	   position: relative; 
+	   left:  1000px;
+	   bottom: 2360px;
+
+}
+
+.alchol2 {
+		display:flex; 
+		position: relative;
+		left: 1800px;
+		bottom: 2300px;
+	
+}
+.alchol3 {
+ 	display: flex; 
+ 	position: relative; 
+ 	left: 1000px; 
+
+}
+.alchol4  {
+	display: flex; 
+	position: relative;
+
+
+
+}
+
+
+
+.main_screen {
+   position: relative;
+
+}
+
+.main_screen_text {
+	position:absolute; 
+	text-align:center;
+	top:80%; 
+	left:1%;
+	font-family:cursive;
+	font-size: 50px; 
+	color: navy; 	
+}
+
+.main_screen_text2 {
+	position: absolute; 
+	text-align: left;
+	top:1%; 
+	left: 1%;
+	font-size: 30px; 
+	color: navy;
+	font-style:lobster;
+}
+
+.hyehwa_list1 ul{
+		float: left;
+}
+
+
+.title {
+	 font-size: 20px; 
+	font-style: godic;
+
+}
+figcaption {
+	display:block;
+}
+
+.rice2 {position: relative;}
+.rice2_text {
+
+	position: absolute; 
+	transform: translate (-80%, -80%);
+	color: black; 
+	font-size: 40px;
+	font-style: godic;
+	bottom: 1px;
+}
+.soup2 {position: relative;}
+.soup2_text {
+	position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 40px; 
+	font-style: italic;
+	bottom: 1px;
+
+}
+.seafood2 {position: relative;}
+.seafood_text {
+	position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 37px; 
+	font-style: italic;
+	bottom: 1px;	
+}
+.meat2 {position: relative; }
+.meat_text {
+	position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 37px; 
+	font-style: italic;
+	bottom: 1px;	
+}
+.
+.noodle2 {position: relative;}
+.noodle_text{ 
+    position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 37px; 
+	font-style: italic;
+	bottom: 1px;
+}
+.snack2 {position: relative;}
+.snack_text{
+    position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 39px; 
+	font-style: italic;
+	bottom: 1px;
+}
+.pizza {position: relative;} 
+.pizza_text{
+   position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 39px; 
+	font-style: italic;
+	bottom: 1px;
+}
+.burger {position: relative;} 
+.burger_text{
+   position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 39px; 
+	font-style: italic;
+	bottom: 1px;
+}
+.france{postion: relative;}
+.france_text{
+    position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 39px; 
+	font-style: italic;
+	bottom: 1px;
+	
+}
+.steak{position: relative;} 
+.steak_text{
+	position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 39px; 
+	font-style: italic;
+	bottom: 1px;
+	
+}
+.beer{position: relative;}
+.beer_text{
+	position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 39px; 
+	font-style: italic;
+	bottom: 1px;
+}
+.wine{position: relative;}
+.wine_text{
+	position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 39px; 
+	font-style: italic;
+	bottom: 1px;
+
+}
+.ricewine{position: relative;}
+.ricewine_text{
+	position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 39px; 
+	font-style: italic;
+	bottom: 1px;
+
+}
+.sake{position: relative;}
+.sake_text{
+	position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:orange; 
+	font-size: 35px; 
+	font-style: godic;
+	bottom: 1px;
+}
+
+.cartbar{position: relative;}
+.cartbar_text{
+     position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 39px; 
+	font-style: godic;
+	bottom: 1px;
+	
+
+}
+.sushi {position: relative;}
+.sushi_text{
+	position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:navy; 
+	font-size: 39px; 
+	font-style: godic;
+	bottom: 1px;
+}
+.china{position: relative;}
+.china_text{
+	position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 39px; 
+	font-style: godic;
+	bottom: 1px;
+}
+
+.indo{position: relative;}
+.indo_text{
+	position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 39px; 
+	font-style: godic;
+	bottom: 1px;
+}
+.vietnam{position: relative;}
+.vietnam_text{
+	position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 39px; 
+	font-style: godic;
+	bottom: 1px;
+
+}
+
+
+
+
+.title2 {
+   position: relative; 
+   bottom: 900px;
+}
+.title3 {
+   position: relative; 
+   bottom: 2200px;
+}
+</style>
+</head>
+<body class="homepage" onunload="">
+<main class="pg-main"> 
+  <div class="main_screen"> 
+  <img src="../picture/station1.jpg" width="100%" height="600px"> 
+  <h1 class="main_screen_text2">hyehwaplate</h1>
+  <h1 class="main_screen_text">혜화동 맛집을 정복하자! hyehwaplate</h1> 
+  </div>
+    <header class="main-header">     
+   
+   <fieldset class="main-search"> 
+ <!--    <legend>전체 검색 </legend> -->   
+    <label class="search-word" for="main-search"> 
+   <span class="icon"> 검색</span> 
+   <input id="main-search" class="HomeSearchInput" name="main-search" type="text" maxlength="100" placeholder="식당이나 먹고싶은 음식" onclick="#">
+  <span class="clear_btn">Clear</span>    
+    </label>
+   <input class="btn-search" type="submit" value="검색" onclick="#"> 
+   </fieldset> 
+    </header> 
+</main>
+<hr> 
+
+<div class="title1"> 
+ <h2>한국인은 밥心이지! 한정식</h2>
+</div>
+<div class="rice">
+<a href="/hyehwaPC/rice.jsp">
+<img class="rice2" alt="한정식" 
+src="../food/rice.jpg" style="width:700px; height:250px"/></a><br>
+<strong class="rice2_text">집밥이 그리울땐~ 백반맛집!</strong>
+ </div>
+ <div class="soup">  
+ <a href="/hyehwaPC/soup.jsp">
+<img class="soup2" alt="한정식"
+ src="../food/soup.jpg" style="width:700px; height:250px;"/></a><br>
+<strong class="soup2_text">얼큰한~국물이 땡긴다! 국물맛집</strong>
+ </div>
+ <div class="seafood"> 
+ <a href="/hyehwaPC/seafood.jsp">
+  <img class="seafood2" alt="한정식"
+  src="../food/seafood.jpg" style="width:700px; height:250px;"/></a><br>
+ <strong class="seafood_text">오늘은 왠지 신선한 해산물이 땡기는걸!</strong>             
+ </div>
+ <div class="meat"> 
+ <a href="/hyehwaPC/meat.jsp">
+  <img class="meat2" alt="한정식"
+  src="../food/meat.jpg" style="width:700px; height:250px"/></a><br>
+ <strong class="meat_text"> 저기압일 때는 고기 앞으로!</strong>
+ </div>
+ <div class="noodle"> 
+ <a href="/hyehwaPC/noodle.jsp">
+  <img class="noodle2" alt="한정식"
+   src="../food/noodle.jpg" style="width:700px; height:250px"/></a><br>
+   <strong class="noodle_text"> 나는야 면LOVER~</strong> 
+ </div>
+ <div class="snack"> 
+ <a href="/hyehwaPC/snack.jsp">
+  <img class="snack2" alt="한정식"
+   src="../food/snack.jpg" style="width:700px; height:250px;"/></a><br> 
+ <strong class="snack_text">국민간식 떡볶이가 생각날 땐!</strong>                
+ </div>
+ <div class="title2"> 
+ <hr>
+ <h2>이국적인 음식을 먹어보자</h2>
+ </div>
+ <div class="western">   
+ <a href="/hyehwaPC/italian.jsp">
+  <img class="pizza" alt="양식"
+   src="../food/pizza.jpg" style="width:550px; height:250px;"/></a><br> 
+<strong class="pizza_text">쓰빠궤리~앤드 피짜</strong>      
+ </div>
+
+<div class="western1">   
+ <a href="/hyehwaPC/hamburger.jsp">
+  <img class="burger" alt="양식"
+   src="../food/burger.jpg" style="width:550px; height:250px;"/></a><br> 
+<strong class="burger_text">수제버거가 먹고싶을 땐 </strong>               
+ </div>
+
+<div class="western2">   
+ <a href="/hyehwaPC/french.jsp">
+  <img class="france" alt="양식"
+   src="../food/france.jpg" style="width:550px; height:250px;"/></a><br> 
+ <strong class="france_text">봉쥬르~프랑스음식</strong>                
+ </div>
+
+<div class="western3">   
+ <a href="/hyehwaPC/steak.jsp">
+  <img class="steak" alt="양식"
+   src="../food/steak.jpg" style="width:550px; height:250px;"/></a><br> 
+ <strong class="steak_text">우아하게 고기한번 썰어보자!</strong>                
+ </div>
+<div class="eastern1"> 
+<a href="/hyehwaPC/japan.jsp">
+  <img class="sushi" alt="양식"
+   src="../food/sushi.jpg" style="width:550px; height:250px;"/></a><br> 
+ <strong class="sushi_text">곤니찌와! 일본음식</strong>               
+</div>
+<div class="eastern2"> 
+<a href="/hyehwaPC/chineese.jsp">
+  <img class="china" alt="양식"
+   src="../food/china2.jpg" style="width:550px; height:250px;"/></a><br> 
+  <strong class="china_text">니하오! 중국음식</strong>               
+</div>
+<div class="eastern3"> 
+<a href="/hyehwaPC/india.jsp">
+  <img class="indo" alt="양식"
+   src="../food/indo.jpg" style="width:550px; height:250px;"/></a><br> 
+  <strong class="indo_text">나마스떼! 인도음식</strong>               
+</div>
+<div class="eastern4"> 
+<a href="/hyehwaPC/vietfood.jsp">
+  <img class="vietnam" alt="양식"
+   src="../food/vietnam.jpg" style="width:550px; height:250px;"/></a><br> 
+ <strong class="vietnam_text">뜨끈한 쌀국수! 베트남음식</strong>               
+</div>
+ <div class="title3"> 
+ <hr>
+ <h2>나는 알콜 free~ 근데 취해! 취하고 싶을 땐</h2>
+ </div>
+ 
+ <div class="alchol">   
+ <a href="/hyehwaPC/chicBeer.jsp">
+  <img class="beer" alt="술집"
+   src="../food/beer2.jpg" style="width:700px; height:350px;"/></a><br> 
+<!-- <strong class="beer_text">가볍게 맥주 한잔 더 할까?</strong> -->     
+ </div>
+ 
+  <div class="alchol1">   
+ <a href="/hyehwaPC/cocktail.jsp">
+  <img class="wine"  alt="술집"
+   src="../food/cocktail.jpg" style="width:700px; height:350px;"/></a><br> 
+<!-- <strong class="wine_text">가벼고 달달하게 부담없이 한잔.</strong> -->    
+ </div> 
+   <div class="alchol2">   
+ <a href="/hyehwaPC/ricewine.jsp">
+  <img class="ricewine" alt="술집"
+   src="../food/rice2.jpg" style="width:700px; height:350px;"/></a><br> 
+<!-- <strong class="ricewine_text">주모 여기 막걸리 한잔이요!</strong> -->     
+ </div> 
+   <div class="alchol3">   
+ <a href="/hyehwaPC/izakaya.jsp">
+  <img class="sake" alt="술집"
+   src="../food/sake.jpg" style="width:700px; height:350px;"/></a><br> 
+<!-- <strong class="sake_text">아기자기하고 이국적인 술집은 이자카야지~</strong> -->
+ </div> 
+   <div class="alchol4">   
+ <a href="/hyehwaPC/cartbar.jsp">
+  <img class="cartbar" alt="술집"
+   src="../food/cartbar.jpg" style="width:700px; height:350px;"/></a><br> 
+<!-- <strong class="cartbar_text">라떼는~ 옛날 감성 포장마차!</strong> -->  
+ </div> 
+  -->
+<!--  <div class="title3"> 
+ <hr>
+ <h2>커피 한잔 할래요~ </h2>
+ </div> -->
+ 
+ 
+
+ 
+ 
+</body>
+</html>

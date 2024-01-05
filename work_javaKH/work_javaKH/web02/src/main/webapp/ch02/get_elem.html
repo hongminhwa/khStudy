@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>get_elem</title>
+</head>
+<body>
+<h1 id= "Test" style="color: blue; background-color: purple;">This is a heading</h1>
+<script type="text/javascript">
+function func() {
+	var e = document.getElementById("test");
+	e.style.color = "red"; //글자색 변경
+	e.style.backgroundColor = "yellow"; // 배경색 변경. 
+	// 자바스크리브의 색변경은 .backgroundColor
+	// HTML의 색변경은 background-color
+	}
+</script>
+  <button type="button" onclick="func()">클릭하세요</button>
+
+</body>
+</html>

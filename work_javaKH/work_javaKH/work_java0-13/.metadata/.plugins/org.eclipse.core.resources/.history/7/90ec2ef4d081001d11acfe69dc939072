@@ -1,0 +1,9 @@
+package ch07;
+
+public class TelevisionTest2 {
+      public static void main(String[] args) {
+    	   Television myTv = new Television(); 
+    	   System.out.println(myTv); 
+    	   
+	}
+}

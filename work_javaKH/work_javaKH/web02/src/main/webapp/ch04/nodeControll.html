@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<script type="text/javascript">
+function addtext(t) {
+	if(document.createTextNode) { // 텍스트 노드 추가가 가능하다면 
+		var br=document.createElement("br"); // br태그 생성 
+		document.getElementById("target").appendChild(br); // br태그를 추가. 
+		var btn = documnet.createElement("button");
+		var node = document.createTextNode(t); //텍스트 노드를 추가.
+		btn.appendChild(node); //div 태그에 자식노드 추가. 
+		document.getElementById("target").appendChild(btn); 	
+	}
+}
+
+function  removeNode() {
+	 var parent = document.getElementById("div1");
+	 var child = document.getElementById("p1"); // p1태그만 가져옴.
+	 parent.removeChild(child); // 노드 삭제 
+	
+}
+
+
+
+</script>
+</head>
+
+<body>
+<div id="target" onclick="addtext('동적으로 추가')" style="font: 20px bold;" > 
+여기를 클릭하세요
+</div>
+<div id="div1">
+<p id="p1"> 첫번째 단락</p>
+<p id="p1"> 첫번째 단락</p>
+</div>
+<button onclick="removeNode()"> 단락 제거 </button>
+
+
+
+
+</body>
+</html>

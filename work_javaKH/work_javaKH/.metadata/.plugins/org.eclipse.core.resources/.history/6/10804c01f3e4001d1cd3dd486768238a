@@ -1,0 +1,104 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>Insert title here</title>
+<%@ include file="../include/header.jsp" %>
+<style type="text/css">
+.title {
+  margin-top: 90px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600
+}
+
+body {
+	background-color: #F5FFFA;
+}
+.home h2{
+	margin-top: 70px;
+	text-align: center; 
+	font-family: brush script mt;
+ 	color:blue;
+}
+.home a{
+	text-decoration: none;
+	color: black;
+}
+.header {
+	display: float;
+}
+
+.container {
+   position: relative; 
+   bottom: 600px; 
+   left: -240px;
+}
+
+.container p{ 
+	font-size: 50px;
+}
+
+
+
+</style>
+<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+</head>
+<div class="home"> 
+<h2 style="font-size: 100px;"><a href="Index2.jsp">hyehwaPlate</a></h2><br><br>
+<hr> 
+</div>
+<body>  
+<div class="header">  
+
+<img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20150831_205%2F1440989504935S0a5K_JPEG%2F146755597538131_0.jpeg"  style="width: 600px; height: 300px; ">
+<img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20150831_287%2F144098950517327p97_JPEG%2F146755597538131_1.jpeg" style="width: 600px; height: 300px;">
+<img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyMzAzMDhfMTIg%2FMDAxNjc4MjczMzA2ODcy.nPO_OrPcim3dwg5jQHpibIssuvJr72ADbNKiSDuWjw8g.6NYyflJH84hLiJ4NPyZO9bMALFRRAR2Gd3AzeJAlym0g.JPEG%2F1678269585729.jpg" style="width: 600px; height: 300px; "> 
+<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxNjEyMDhfMjcg%2FMDAxNDgxMTg4ODA5MDYz.GmMQ2N6eVDQNLlEet0WzKeu6NpkYGmHNLX75dkYCCygg.dpnv0Drg89_nYtDlduCdaKpGmjjJI43lDHEqW4Nc34Mg.JPEG.quee_naa%2FIMG_2035.jpg" style="width: 600px; height: 300px; ">
+
+</div>
+<div  align="right" class="map">
+
+<div id="daumRoughmapContainer1682596599936" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+3. 실행 스크립트
+<script charset="UTF-8">
+	new daum.roughmap.Lander({
+		"timestamp" : "1682596599936",
+		"key" : "2emz3",
+		"mapWidth" : "800",
+		"mapHeight" : "800"
+	}).render();
+</script>
+</div>
+
+<div class="container"> 
+<h1 style="text-align: center; font-size: 85px; ">서피동파</h1>
+<hr>
+<p>주소 서울 종로구 대명길 21-5  </p>
+<p>혜화역 4번출구에서 163m</p>
+<p>주차공간 없음</p>
+<p>일 16:00~02:00 </p>
+<p>전화번호 02-766-3007</p>
+<p>해물치즈 빈대떡 16000원 </p>
+<p>해물파전 16000원</p>
+<p>제육볶음 20000원</p> 
+<p>전+볶음 33000원</p> 
+<p>80여종의 막걸리</p>
+<hr> 
+<p> 서쪽에 피자 동쪽에 파전 혜화동 파전 맛집입니다.
+80여종의 다양한 막걸리를 즐겨보세요 </p>
+</div>
+
+
+
+
+
+
+
+</body>

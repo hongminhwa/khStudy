@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+table th, table td {margin: 1px; padding: 8px;}
+table {
+	border-top: 3px solid;
+	border-bottom: 1px solid;
+	border-collapse: seperate; 
+	/*
+	border-collapse: 테이블과 td의 테두리 사이의 간격처리방식을 정하는 속성.
+	 (coollapse) -table과 td의 테두리 사이의 간격을 없앤다.
+	    seperate -> table과 td의 테두리 사이에 간격을 둔다. 
+	    inherit -> 부모요소의 속성값을 상속 받음.
+	 	 */	
+}
+table th {
+    background-color:purple;
+    color: white;
+    border-bottom: 2px solid black;
+    font-size: 1.4em; /* 기본 글꼴의 대문자 깆준 1.4배만큼 */
+}
+table td {
+	border-bottom: 1px dotted; 
+	
+}
+caption {
+   font-size: 24px;
+   margin: 5px; 
+}
+
+/* nth-child: 특정순서의 요소를 선택, (odd: 홀수, even: 짝수번쨰)  */
+tbody > tr:nth-child(odd) {
+    background-color: lime;
+    
+}
+tbody >tr:nth-child(even) { 
+   background-color: rgb(214,158,210);
+}	
+
+
+</style>
+
+</head>
+<body>
+<table>
+<caption>나의 학교</caption>
+<thead>
+<tr>
+<th>연도</th>
+<th>학교</th>
+<th>주소</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1992</td>
+<td>강남유치원</td>
+<td>서울 강남구 역삼동 </td>
+</tr>
+<tr>
+<td>1998</td>
+<td>강남초등학교 </td>
+<td>서울 강남구 역삼동 </td>
+</tr>
+<tr>
+<td>2003</td>
+<td>강남중학교</td>
+<td>서울 강남구 역삼동 </td>
+</tr>
+<tr>
+<td>2006</td>
+<td>강남고등학교</td>
+<td>서울 강남구 역삼동 </td>
+</tr>
+
+
+</tbody>
+</table>
+
+</body>
+</html>

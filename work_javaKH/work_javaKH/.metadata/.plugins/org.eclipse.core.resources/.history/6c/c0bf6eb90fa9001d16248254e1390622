@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>kitchen</title>
+<!-- <link rel="stylesheet" type="text/css" href="../include/kitchen_style.css"> -->
+<style type="text/css">
+
+
+</style>
+
+</head>
+<body>
+
+<div id="container"> 
+<div class="fride">  
+<input type="image" src="../kitchen/fridge.jpg" width="200" height="200"><br> 
+<p>BESPOKE 4도어 875L </p>
+<p>성능/장점 </p> 
+<ul class="class1">  
+<li>공간에 스며드는 자연스러운 디자인 </li>
+<li>냄새 섞임 없이 트리플 독립냉각</li>
+<li>7단계 변온으로 김치부터 살얼음까지 맞춤 보관실</li>
+<li>재료 본연의 맛을 지켜주는 미세정온</li>
+<li>스마트 기기 상태 모니터링 가능한 Smart Thing Homecare</li>
+</ul>
+<p> 공시가격: 2340000원 </p>
+</div>
+</div>
+
+<div id="container2">  
+<div class="oven"> 
+<input type="image" src="../kitchen/oven.jpg" width="200" height="200"> <br> 
+<p>BESPOKE 오븐 35L</p>
+<ul class="class2"> 
+<li></li>
+<li></li>
+<li></li>
+<li>
+
+</ul>
+
+</div>
+</div>
+
+
+</body>
+</html>

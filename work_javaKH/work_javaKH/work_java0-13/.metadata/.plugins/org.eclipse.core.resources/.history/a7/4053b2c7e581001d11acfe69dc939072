@@ -1,0 +1,15 @@
+package ch07;
+
+public class Point {     // 학점계산 객체지향 
+	private String name; 
+	private int kor; 
+	private int eng; 
+	private int math; 
+	private int tot; 
+	private double arg;
+	private String grade; 
+	
+	
+		
+
+}

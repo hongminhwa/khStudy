@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+
+body {
+	margin: 0; 
+}
+</style>
+
+
+<script type="text/javascript">
+
+
+
+function test() {
+	var canvas = document.getElementById("myCanvas");
+	var context = canvas.getContext("2d");
+	context.setLineDash([5,3]);
+	context.strokeStyle = "green"; 
+	context.beginPath();
+	context.moveTo(0,0); 
+	context.lineWidth = 20; 
+	context.lineTo(100,100); 
+    context.stroke(); 
+    
+    context.beginPath(); 
+    context.moveTo(100, 100); 
+    context.strokeStyle = "red"; 
+    context.lineWidth = 10;
+    context.lineTo(150,50); 
+    context.lineTo(200,100);
+    context.stroke(); 
+    
+}
+
+
+
+
+</script>
+</head>
+ 
+<body onload="test()">
+     <canvas id="myCanvas" width="300" height="200"> </canvas>
+</body>
+</html>

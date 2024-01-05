@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>positionEx</title>
+<style type="text/css">
+/* 
+position: 
+static: 정상적인 배치 방법 (기본값. left,right,top,bottom 적용 안된다.)
+relative: 상대적인 배치 방법 (직전요소 기준 적용)
+absolute: 절대 좌표 배치 방법 (웹브라우저의 원점(좌측 상단) 기준 적용됨)
+fixed: 스크롤 관계 없이 좌표 고정(웹브라우저의 원점(좌측 상단) 기준 적용된다.)
+*/
+#one {
+	position: static;  /* static은 생략가능  */
+	background-color: lime;
+	width:200px;
+	height: 50px;
+} 
+#two {
+	position: relative;
+	left: 120px;
+	top: 200px;
+	background-color: olive;
+	width:200px;
+	height:50px
+}
+#three {
+	position: absolute; 
+	left: 80px;
+	top: 50px;
+	background-color: yelf
+
+}
+
+#four {
+	position:fixed; 
+	right: 300px;
+	top:50px;
+	background-color:purple;
+	width:200px;
+	height: 50px;
+	
+
+}
+
+
+</style>
+</head>
+<body>
+<p id="one"> 블록1</p>
+<div id="two"> 블록2 </div>
+<p id="three"> 블록3</p>
+<div id="four"> 블록4 </div>
+스크롤하기위해 
+<br><br><br><br><br><br>
+<br><br><br><br><br><br>
+<br><br><br><br><br><br>
+</body>
+</html>

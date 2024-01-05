@@ -1,0 +1,7 @@
+package ch07;
+
+public class EmployeeUse {
+	  Employee e1 = new Employee(); 
+	  e1.input("김철수","관리부","과장",300);
+	  e
+}

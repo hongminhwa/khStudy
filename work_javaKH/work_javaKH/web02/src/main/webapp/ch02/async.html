@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+//비동기 프로그래밍은 어떤 작업 요청을 한 후에 다른 작업을 수행을 하다가 이벤트가 발생하면 그에 대한 응답을 받아 처리하는 것.
+function square(x, callback) {
+       document.write(x*x);
+       setTimeout(callback, 1000); // 1초 후에 기억된 callback의 익명함수의 내용을 처리, 여기서 비동기처리.
+}
+
+square(2, function(x) {
+	alert("콜백함수 실행");
+	
+});
+
+</script>
+
+</head>
+<body>
+
+</body>
+</html>

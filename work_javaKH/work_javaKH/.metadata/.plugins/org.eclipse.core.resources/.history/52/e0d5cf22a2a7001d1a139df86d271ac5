@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>kitchen</title>
+<link rel="stylesheet" type="text/css" href="../include/kitchen_style.css">
+</head>
+<body>
+<ul class="navi"> 
+<li class="mobile"> <a href="./mobile.html">모바일</a></li>
+<li class="household"><a href="./household.html">생활가전</a></li>
+<li class="television"><a href="./TV.html">텔레비젼</a></li>
+<li class="computer"><a href="./computer_else.html">PC/주변기기</a><li>
+
+</body>
+</html>

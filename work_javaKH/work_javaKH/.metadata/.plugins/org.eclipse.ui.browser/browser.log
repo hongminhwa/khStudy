@@ -1,0 +1,388 @@
+
+1월 30, 2023 17:16:59.727 NEW SESSION
+1월 30, 2023 17:16:59.728 [2023-01-30T08:16:59Z ERROR glean_core::metrics::ping] Invalid reason code startup for ping background-update
+1월 30, 2023 17:17:07.965 [2023-01-30T08:17:07Z ERROR viaduct::backend::ffi] Missing HTTP status
+1월 30, 2023 17:17:07.965 [2023-01-30T08:17:07Z ERROR viaduct::backend::ffi] Missing HTTP status
+
+1월 31, 2023 15:37:27.930 NEW SESSION
+1월 31, 2023 15:37:27.931 [26040:14736:0131/153727.926:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+1월 31, 2023 18:40:27.544 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+1월 31, 2023 18:51:52.144 [17524:12376:0131/185152.143:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+1월 31, 2023 19:59:33.716 [17524:13656:0131/195933.715:ERROR:interface_endpoint_client.cc(695)] Message 0 rejected by interface blink.mojom.WidgetHost
+1월 31, 2023 19:59:36.807 [17524:1972:0131/195936.807:ERROR:cert_verify_proc_builtin.cc(676)] CertVerifyProcBuiltin for logging.hanwha.com failed:
+1월 31, 2023 19:59:36.808 ----- Certificate i=0 (CN=*.hanwha.com,O=Hanwha S&C Co.\, Ltd,L=Jung-gu,ST=Seoul,C=KR) -----
+1월 31, 2023 19:59:36.808 ERROR: Time is after notAfter
+1월 31, 2023 19:59:36.809 
+1월 31, 2023 19:59:36.809 
+
+1월 31, 2023 21:16:20.228 NEW SESSION
+1월 31, 2023 21:16:20.229 [23544:23404:0131/211620.227:ERROR:page_load_metrics_update_dispatcher.cc(182)] Invalid first_paint (unset) for first_image_paint 0.45 s
+1월 31, 2023 21:16:20.239 [23544:23404:0131/211620.238:ERROR:page_load_metrics_update_dispatcher.cc(182)] Invalid first_paint 0.565 s for first_image_paint 0.45 s
+1월 31, 2023 21:16:20.720 [23544:23404:0131/211620.719:ERROR:page_load_metrics_update_dispatcher.cc(182)] Invalid first_paint 0.565 s for first_image_paint 0.45 s
+1월 31, 2023 21:16:20.874 [23544:23404:0131/211620.874:ERROR:page_load_metrics_update_dispatcher.cc(182)] Invalid first_paint 0.565 s for first_image_paint 0.45 s
+1월 31, 2023 21:16:37.510 [23544:23404:0131/211637.510:ERROR:page_load_metrics_update_dispatcher.cc(182)] Invalid first_paint 0.565 s for first_image_paint 0.45 s
+1월 31, 2023 21:16:38.593 [23544:23404:0131/211638.592:ERROR:page_load_metrics_update_dispatcher.cc(182)] Invalid first_paint 0.565 s for first_image_paint 0.45 s
+1월 31, 2023 21:17:01.256 [23544:23404:0131/211701.256:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+1월 31, 2023 21:17:01.257 [23544:23404:0131/211701.256:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+1월 31, 2023 21:17:01.257 [23544:23404:0131/211701.256:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+1월 31, 2023 21:17:19.896 [23544:9816:0131/211719.895:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+1월 31, 2023 21:33:55.992 [23544:24844:0131/213355.991:ERROR:cert_verify_proc_builtin.cc(676)] CertVerifyProcBuiltin for logging.hanwha.com failed:
+1월 31, 2023 21:33:55.992 ----- Certificate i=0 (CN=*.hanwha.com,O=Hanwha S&C Co.\, Ltd,L=Jung-gu,ST=Seoul,C=KR) -----
+1월 31, 2023 21:33:55.993 ERROR: Time is after notAfter
+1월 31, 2023 21:33:55.993 
+1월 31, 2023 21:33:55.993 
+1월 31, 2023 21:34:26.477 [23544:23404:0131/213426.477:ERROR:page_load_metrics_update_dispatcher.cc(182)] Invalid first_paint 0.565 s for first_image_paint 0.45 s
+1월 31, 2023 21:34:26.588 [23544:23404:0131/213426.587:ERROR:page_load_metrics_update_dispatcher.cc(182)] Invalid first_paint 0.565 s for first_image_paint 0.45 s
+1월 31, 2023 21:34:28.835 [23544:23404:0131/213428.834:ERROR:page_load_metrics_update_dispatcher.cc(182)] Invalid first_paint 0.565 s for first_image_paint 0.45 s
+1월 31, 2023 21:34:29.249 [23544:23404:0131/213429.249:ERROR:page_load_metrics_update_dispatcher.cc(182)] Invalid first_paint 0.565 s for first_image_paint 0.45 s
+1월 31, 2023 21:34:36.419 [23544:23404:0131/213436.418:ERROR:page_load_metrics_update_dispatcher.cc(182)] Invalid first_paint 0.565 s for first_image_paint 0.45 s
+1월 31, 2023 21:34:36.546 [23544:23404:0131/213436.546:ERROR:page_load_metrics_update_dispatcher.cc(182)] Invalid first_paint 0.565 s for first_image_paint 0.45 s
+1월 31, 2023 21:34:36.841 [23544:23404:0131/213436.840:ERROR:page_load_metrics_update_dispatcher.cc(182)] Invalid first_paint 0.565 s for first_image_paint 0.45 s
+1월 31, 2023 21:34:37.113 [23544:23404:0131/213437.113:ERROR:page_load_metrics_update_dispatcher.cc(182)] Invalid first_paint 0.565 s for first_image_paint 0.45 s
+1월 31, 2023 21:34:37.431 [23544:23404:0131/213437.430:ERROR:page_load_metrics_update_dispatcher.cc(182)] Invalid first_paint 0.565 s for first_image_paint 0.45 s
+1월 31, 2023 21:34:37.784 [23544:23404:0131/213437.783:ERROR:page_load_metrics_update_dispatcher.cc(182)] Invalid first_paint 0.565 s for first_image_paint 0.45 s
+1월 31, 2023 21:34:38.80 [23544:23404:0131/213438.080:ERROR:page_load_metrics_update_dispatcher.cc(182)] Invalid first_paint 0.565 s for first_image_paint 0.45 s
+1월 31, 2023 21:34:38.345 [23544:23404:0131/213438.345:ERROR:page_load_metrics_update_dispatcher.cc(182)] Invalid first_paint 0.565 s for first_image_paint 0.45 s
+1월 31, 2023 21:34:38.491 [23544:23404:0131/213438.491:ERROR:page_load_metrics_update_dispatcher.cc(182)] Invalid first_paint 0.565 s for first_image_paint 0.45 s
+1월 31, 2023 21:34:38.844 [23544:23404:0131/213438.844:ERROR:page_load_metrics_update_dispatcher.cc(182)] Invalid first_paint 0.565 s for first_image_paint 0.45 s
+1월 31, 2023 21:34:47.720 [23544:23404:0131/213447.719:ERROR:page_load_metrics_update_dispatcher.cc(182)] Invalid first_paint 0.565 s for first_image_paint 0.45 s
+1월 31, 2023 21:34:47.824 [23544:23404:0131/213447.824:ERROR:page_load_metrics_update_dispatcher.cc(182)] Invalid first_paint 0.565 s for first_image_paint 0.45 s
+1월 31, 2023 21:34:48.913 [23544:23404:0131/213448.912:ERROR:page_load_metrics_update_dispatcher.cc(182)] Invalid first_paint 0.565 s for first_image_paint 0.45 s
+1월 31, 2023 21:34:49.53 [23544:23404:0131/213449.053:ERROR:page_load_metrics_update_dispatcher.cc(182)] Invalid first_paint 0.565 s for first_image_paint 0.45 s
+1월 31, 2023 21:34:52.452 [23544:23404:0131/213452.452:ERROR:page_load_metrics_update_dispatcher.cc(182)] Invalid first_paint 0.565 s for first_image_paint 0.45 s
+1월 31, 2023 21:34:52.564 [23544:23404:0131/213452.564:ERROR:page_load_metrics_update_dispatcher.cc(182)] Invalid first_paint 0.565 s for first_image_paint 0.45 s
+1월 31, 2023 21:34:53.507 [23544:23404:0131/213453.506:ERROR:page_load_metrics_update_dispatcher.cc(182)] Invalid first_paint 0.565 s for first_image_paint 0.45 s
+1월 31, 2023 21:34:53.920 [23544:23404:0131/213453.920:ERROR:page_load_metrics_update_dispatcher.cc(182)] Invalid first_paint 0.565 s for first_image_paint 0.45 s
+1월 31, 2023 21:34:53.975 [23544:23404:0131/213453.975:ERROR:page_load_metrics_update_dispatcher.cc(182)] Invalid first_paint 0.565 s for first_image_paint 0.45 s
+1월 31, 2023 21:34:55.588 [23544:23404:0131/213455.587:ERROR:page_load_metrics_update_dispatcher.cc(182)] Invalid first_paint 0.565 s for first_image_paint 0.45 s
+1월 31, 2023 21:34:55.701 [23544:23404:0131/213455.701:ERROR:page_load_metrics_update_dispatcher.cc(182)] Invalid first_paint 0.565 s for first_image_paint 0.45 s
+
+2월 03, 2023 14:04:14.377 NEW SESSION
+2월 03, 2023 14:04:14.377 [26608:19204:0203/140414.372:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 03, 2023 14:04:14.634 [26608:19296:0203/140414.634:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+2월 03, 2023 14:56:07.779 [26608:29652:0203/145607.775:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+2월 03, 2023 14:59:38.803 [26608:29652:0203/145938.802:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 03, 2023 15:00:06.320 [26608:29652:0203/150006.318:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 03, 2023 15:00:52.314 [26608:29652:0203/150052.312:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 03, 2023 15:02:36.695 [26608:29652:0203/150236.694:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 03, 2023 15:05:55.465 [26608:29652:0203/150555.464:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 03, 2023 15:11:32.817 [26608:29652:0203/151132.814:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+2월 03, 2023 15:11:42.839 [26608:29652:0203/151142.838:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+2월 03, 2023 15:11:47.751 [26608:29652:0203/151147.750:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 03, 2023 15:11:54.270 [26608:29652:0203/151154.269:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+2월 03, 2023 15:15:57.504 [26608:29652:0203/151557.503:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 03, 2023 15:16:20.88 [26608:29652:0203/151620.087:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 03, 2023 15:17:03.648 [26608:29652:0203/151703.646:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 03, 2023 15:18:24.86 [26608:29652:0203/151824.085:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 03, 2023 15:27:33.179 [26608:29652:0203/152733.178:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+2월 03, 2023 15:28:33.376 [26608:29652:0203/152833.375:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+
+2월 06, 2023 15:48:34.525 NEW SESSION
+2월 06, 2023 15:48:34.525 [14560:10004:0206/154834.522:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 06, 2023 18:23:36.894 [14560:28696:0206/182336.893:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+2월 06, 2023 18:23:36.900 [14560:28696:0206/182336.900:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+2월 06, 2023 18:23:36.901 [14560:28696:0206/182336.900:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+2월 06, 2023 18:23:39.04 [14560:28696:0206/182339.004:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+2월 06, 2023 18:23:39.05 [14560:28696:0206/182339.004:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+2월 06, 2023 20:48:34.545 [14560:18312:0206/204834.542:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+2월 07, 2023 15:34:14.746 NEW SESSION
+2월 07, 2023 15:34:14.747 [29472:1236:0207/153414.743:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 07, 2023 15:35:40.911 [29472:8212:0207/153540.911:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+2월 07, 2023 15:35:40.912 [29472:8212:0207/153540.911:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+2월 07, 2023 15:35:40.912 [29472:8212:0207/153540.911:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+2월 07, 2023 15:37:10.431 [29472:8212:0207/153710.431:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+2월 07, 2023 16:30:33.975 [29472:8212:0207/163033.974:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+2월 07, 2023 16:33:23.829 [29472:8212:0207/163323.828:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+2월 07, 2023 18:52:35.592 NEW SESSION
+2월 07, 2023 18:52:35.592 [30356:18912:0207/185235.588:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 07, 2023 18:55:41.798 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+2월 07, 2023 18:57:03.143 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+2월 07, 2023 18:57:41.660 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+2월 07, 2023 18:58:52.684 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+2월 07, 2023 18:59:08.593 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+2월 07, 2023 18:59:53.914 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+2월 07, 2023 19:01:08.156 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+2월 07, 2023 19:13:08.675 [26576:11016:0207/191308.675:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 07, 2023 19:15:09.733 [26576:18872:0207/191509.733:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+2월 08, 2023 13:31:09.686 NEW SESSION
+2월 08, 2023 13:31:09.686 [14728:17432:0208/133109.680:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 08, 2023 13:34:27.868 [14728:23924:0208/133427.868:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+2월 08, 2023 13:35:15.623 [14728:23924:0208/133515.622:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+2월 08, 2023 13:35:15.623 [14728:23924:0208/133515.622:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+2월 08, 2023 13:49:02.558 [14728:23924:0208/134902.557:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+2월 08, 2023 13:49:02.558 [14728:23924:0208/134902.557:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+2월 08, 2023 14:25:41.731 [14728:30636:0208/142541.730:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+2월 08, 2023 14:25:41.734 ERROR: Couldn't read tbsCertificate as SEQUENCE
+2월 08, 2023 14:25:41.734 ERROR: Failed parsing Certificate
+2월 08, 2023 14:25:41.735 
+2월 08, 2023 14:25:42.870 [14728:30636:0208/142542.869:ERROR:cert_verify_proc_builtin.cc(676)] CertVerifyProcBuiltin for w.nsense.co.kr failed:
+2월 08, 2023 14:25:42.870 ----- Certificate i=0 (CN=nsense.co.kr) -----
+2월 08, 2023 14:25:42.871 ERROR: Time is after notAfter
+2월 08, 2023 14:25:42.872 
+2월 08, 2023 14:25:42.873 
+2월 08, 2023 14:54:31.249 [14728:27848:0208/145431.248:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+2월 08, 2023 14:56:12.273 [14728:27848:0208/145612.272:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 08, 2023 14:56:34.938 [14728:27848:0208/145634.937:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 08, 2023 14:57:29.348 [14728:27848:0208/145729.346:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 08, 2023 14:59:00.387 [14728:27848:0208/145900.386:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 08, 2023 15:01:49.831 [14728:27848:0208/150149.829:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 08, 2023 15:15:03.439 [14728:27848:0208/151503.437:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+2월 08, 2023 15:16:51.693 [14728:27848:0208/151651.693:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+2월 08, 2023 15:24:49.750 [14728:27848:0208/152449.749:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -7
+2월 08, 2023 15:25:26.550 [14728:27848:0208/152526.550:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+2월 08, 2023 17:04:09.939 [28200:27140:0208/170409.938:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 08, 2023 17:34:57.803 [28200:1164:0208/173457.803:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+2월 08, 2023 20:51:50.279 [25804:22624:0208/205150.278:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 08, 2023 20:52:41.75 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+2월 08, 2023 20:54:23.789 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+2월 08, 2023 20:55:18.233 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+2월 08, 2023 20:55:58.320 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+2월 08, 2023 21:15:48.590 [12044:12584:0208/211548.589:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 08, 2023 21:40:26.471 [12456:21256:0208/214026.471:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+2월 08, 2023 21:41:09.629 [12456:9432:0208/214109.629:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+2월 09, 2023 14:31:08.597 NEW SESSION
+2월 09, 2023 14:31:08.597 [29528:5360:0209/143108.594:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+2월 09, 2023 14:58:02.412 [29528:15356:0209/145802.411:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+2월 09, 2023 15:01:55.655 [29528:15356:0209/150155.654:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 09, 2023 15:02:21.946 [29528:15356:0209/150221.945:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 09, 2023 15:03:02.808 [29528:15356:0209/150302.807:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 09, 2023 15:05:01.236 [29528:15356:0209/150501.234:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 09, 2023 15:07:57.762 [29528:15356:0209/150757.760:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 09, 2023 15:25:45.671 [29528:15356:0209/152545.670:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 09, 2023 15:29:03.640 [29528:15356:0209/152903.640:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+2월 09, 2023 15:29:15.677 [29528:15356:0209/152915.676:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+2월 09, 2023 15:31:02.382 [29528:5360:0209/153102.381:ERROR:interface_endpoint_client.cc(695)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+2월 10, 2023 13:38:09.142 NEW SESSION
+2월 10, 2023 13:38:09.142 [32692:14552:0210/133809.140:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 10, 2023 13:38:09.143 [32692:14552:0210/133809.141:ERROR:registration_request.cc(248)] Registration URL fetching failed.
+2월 10, 2023 13:38:37.68 [32692:14552:0210/133837.068:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 10, 2023 13:38:37.300 [32692:14552:0210/133837.299:ERROR:registration_request.cc(248)] Registration URL fetching failed.
+2월 10, 2023 13:39:19.350 [32692:14552:0210/133919.349:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 10, 2023 13:39:26.771 [32692:14552:0210/133926.771:ERROR:registration_request.cc(248)] Registration URL fetching failed.
+2월 10, 2023 13:41:09.171 [32692:14552:0210/134109.171:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 10, 2023 13:41:18.487 [32692:14552:0210/134118.487:ERROR:registration_request.cc(248)] Registration URL fetching failed.
+2월 10, 2023 13:41:29.503 [32692:14552:0210/134129.503:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 10, 2023 13:41:29.524 [32692:14552:0210/134129.523:ERROR:checkin_request.cc(240)] Check-in request got net error: -106
+2월 10, 2023 13:41:32.584 [32692:21800:0210/134132.583:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+2월 10, 2023 13:41:36.527 [32692:21800:0210/134136.527:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+2월 10, 2023 13:41:57.963 [32692:14552:0210/134157.963:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 10, 2023 13:41:59.215 [32692:14552:0210/134159.214:ERROR:checkin_request.cc(240)] Check-in request got net error: -106
+2월 10, 2023 13:42:30.815 [32692:14552:0210/134230.814:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+2월 10, 2023 13:42:30.815 [32692:14552:0210/134230.814:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+2월 10, 2023 13:42:50.46 [32692:14552:0210/134250.045:ERROR:checkin_request.cc(240)] Check-in request got net error: -105
+2월 10, 2023 13:44:04.814 [32692:14552:0210/134404.813:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 10, 2023 13:44:04.814 [32692:14552:0210/134404.813:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 10, 2023 13:44:11.809 [32692:14552:0210/134411.808:ERROR:checkin_request.cc(240)] Check-in request got net error: -106
+2월 10, 2023 14:52:29.884 [32692:14552:0210/145229.883:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 10, 2023 14:52:29.889 [32692:14552:0210/145229.889:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 10, 2023 14:52:52.135 [32692:14552:0210/145252.133:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 10, 2023 14:52:59.275 [32692:14552:0210/145259.273:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 10, 2023 14:53:40.618 [32692:14552:0210/145340.617:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 10, 2023 14:53:44.517 [32692:14552:0210/145344.516:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 10, 2023 14:55:17.94 [32692:14552:0210/145517.092:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 10, 2023 14:55:28.868 [32692:14552:0210/145528.866:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 10, 2023 15:35:37.937 [32692:21800:0210/153537.934:ERROR:device_event_log_impl.cc(218)] [15:35:37.933] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: ��Ұ� �����ϴ�. (0x490)
+2월 10, 2023 16:52:06.177 [32692:21800:0210/165206.176:ERROR:interface_endpoint_client.cc(695)] Message 6 rejected by interface blink.mojom.WidgetHost
+2월 10, 2023 16:52:06.178 [32692:21800:0210/165206.176:ERROR:interface_endpoint_client.cc(695)] Message 7 rejected by interface blink.mojom.WidgetHost
+2월 10, 2023 17:06:39.751 [32692:21800:0210/170639.750:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+2월 10, 2023 17:55:18.470 [32692:21800:0210/175518.469:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+2월 10, 2023 18:10:21.634 [32692:14552:0210/181021.634:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+2월 10, 2023 18:10:21.635 [32692:14552:0210/181021.634:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+2월 10, 2023 18:15:22.849 [32692:14552:0210/181522.848:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 10, 2023 18:15:22.849 [32692:14552:0210/181522.848:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 10, 2023 18:15:45.28 [32692:14552:0210/181545.027:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 10, 2023 18:15:46.437 [32692:14552:0210/181546.435:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 10, 2023 18:16:30.887 [32692:14552:0210/181630.885:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 10, 2023 18:16:31.194 [32692:14552:0210/181631.193:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 10, 2023 18:17:56.978 [32692:14552:0210/181756.976:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 10, 2023 18:18:16.451 [32692:14552:0210/181816.450:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 10, 2023 18:21:43.972 [32692:14552:0210/182143.971:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 10, 2023 18:21:47.679 [32692:14552:0210/182147.677:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 10, 2023 18:27:23.408 [32692:14552:0210/182723.407:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 10, 2023 18:29:36.621 [32692:14552:0210/182936.620:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 11, 2023 15:12:38.984 [32692:14552:0211/151238.970:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 11, 2023 15:12:39.25 [32692:14552:0211/151238.984:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 11, 2023 15:12:39.70 [32692:18736:0211/151239.069:ERROR:get_updates_processor.cc(264)] PostClientToServerMessage() failed during GetUpdates with error 2
+2월 11, 2023 15:12:39.298 [32692:14552:0211/151239.298:ERROR:registration_request.cc(248)] Registration URL fetching failed.
+2월 11, 2023 15:12:39.300 [32692:14552:0211/151239.299:ERROR:registration_request.cc(248)] Registration URL fetching failed.
+2월 11, 2023 15:13:06.130 [32692:14552:0211/151306.130:ERROR:registration_request.cc(248)] Registration URL fetching failed.
+2월 11, 2023 15:13:09.178 [32692:14552:0211/151309.177:ERROR:registration_request.cc(248)] Registration URL fetching failed.
+2월 11, 2023 15:13:12.508 [32692:21800:0211/151312.508:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Connection failed (-106).
+2월 11, 2023 15:13:38.947 [32692:14552:0211/151338.946:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+2월 11, 2023 15:13:38.947 [32692:14552:0211/151338.946:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+2월 11, 2023 15:13:49.92 [32692:14552:0211/151349.092:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+2월 11, 2023 15:13:52.609 [32692:14552:0211/151352.608:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+2월 11, 2023 15:13:52.611 [32692:14552:0211/151352.611:ERROR:registration_request.cc(248)] Registration URL fetching failed.
+2월 11, 2023 15:13:57.193 [32692:21800:0211/151357.192:ERROR:device_event_log_impl.cc(218)] [15:13:57.192] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: ��Ұ� �����ϴ�. (0x490)
+2월 11, 2023 15:13:57.222 [32692:14552:0211/151357.222:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 11, 2023 15:13:57.223 [32692:14552:0211/151357.222:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+2월 11, 2023 15:14:00.260 [32692:14552:0211/151400.259:ERROR:registration_request.cc(248)] Registration URL fetching failed.
+2월 11, 2023 15:40:51.636 [32692:14552:0211/154051.635:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+2월 11, 2023 15:40:51.637 [32692:14552:0211/154051.635:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+2월 11, 2023 18:40:54.893 [32692:14552:0211/184054.892:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+2월 11, 2023 18:40:54.894 [32692:14552:0211/184054.893:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+
+2월 15, 2023 15:14:15.552 NEW SESSION
+2월 15, 2023 15:14:15.580 [21104:20104:0215/151415.150:ERROR:device_event_log_impl.cc(218)] [15:14:15.150] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: ��Ұ� �����ϴ�. (0x490)
+2월 15, 2023 15:14:15.613 [21104:20104:0215/151415.171:ERROR:device_event_log_impl.cc(218)] [15:14:15.171] USB: usb_service_win.cc:307 SetupDiEnumDeviceInterfaces: ��� ������ �����Ͱ� �����ϴ�. (0x103)
+2월 15, 2023 15:17:30.889 [21104:20104:0215/151730.889:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+2월 15, 2023 15:17:30.890 [21104:20104:0215/151730.889:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+2월 15, 2023 15:19:55.351 [21104:20104:0215/151955.350:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+2월 16, 2023 19:14:59.889 NEW SESSION
+2월 16, 2023 19:14:59.889 [25032:22644:0216/191459.875:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+2월 16, 2023 19:22:10.638 [10548:6060:0216/192210.638:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+2월 24, 2023 18:03:43.456 NEW SESSION
+2월 24, 2023 18:03:43.456 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+2월 24, 2023 18:03:51.146 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+2월 24, 2023 18:50:04.154 [27736:29456:0224/185004.153:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+
+2월 27, 2023 16:30:55.355 NEW SESSION
+2월 27, 2023 16:30:55.355 [7980:1556:0227/163055.352:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+2월 27, 2023 18:56:09.816 [7980:1556:0227/185609.814:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+2월 27, 2023 19:39:35.638 [7980:1556:0227/193935.636:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+2월 28, 2023 15:21:53.691 NEW SESSION
+2월 28, 2023 15:21:53.692 [20780:12008:0228/152153.678:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+2월 28, 2023 15:31:00.432 [20780:12008:0228/153100.431:ERROR:device_event_log_impl.cc(218)] [15:31:00.430] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: ��Ұ� �����ϴ�. (0x490)
+
+3월 02, 2023 15:33:30.30 NEW SESSION
+3월 02, 2023 15:33:30.30 [29948:1144:0302/153330.028:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+3월 02, 2023 17:26:48.347 [29948:21240:0302/172648.346:ERROR:cert_verify_proc_builtin.cc(677)] CertVerifyProcBuiltin for image.castingn.com failed:
+3월 02, 2023 17:26:48.347 ----- Certificate i=0 (CN=image.castingn.com) -----
+3월 02, 2023 17:26:48.348 ERROR: Time is after notAfter
+3월 02, 2023 17:26:48.348 
+3월 02, 2023 17:26:48.348 
+
+3월 02, 2023 19:32:43.670 NEW SESSION
+3월 02, 2023 19:32:43.670 [13964:13728:0302/193243.668:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+3월 07, 2023 18:46:24.167 NEW SESSION
+3월 07, 2023 18:46:24.167 [11100:16572:0307/184624.154:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+
+3월 13, 2023 12:36:46.297 NEW SESSION
+3월 13, 2023 12:36:46.297 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 13, 2023 12:53:34.25 [16172:12116:0313/125334.024:ERROR:connection_factory_impl.cc(473)] ConnectionHandler failed with net error: -2
+3월 13, 2023 13:11:43.22 [16172:27236:0313/131143.021:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+3월 13, 2023 13:11:43.23 [16172:27236:0313/131143.021:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+3월 15, 2023 15:30:28.179 NEW SESSION
+3월 15, 2023 15:30:28.179 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+3월 20, 2023 13:50:57.292 NEW SESSION
+3월 20, 2023 13:50:57.292 [17692:16272:0320/135057.289:ERROR:backend_impl.cc(1040)] Critical error found -8
+3월 20, 2023 13:51:06.512 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+3월 20, 2023 19:00:10.948 NEW SESSION
+3월 20, 2023 19:00:10.948 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 20, 2023 19:00:58.390 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+3월 20, 2023 19:01:00.712 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+3월 20, 2023 19:01:00.909 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+3월 20, 2023 19:01:01.82 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+3월 20, 2023 19:01:01.349 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+3월 20, 2023 21:13:24.576 [21536:3120:0320/211324.456:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+3월 20, 2023 21:33:33.157 [21536:3120:0320/213333.157:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+3월 21, 2023 14:27:33.586 NEW SESSION
+3월 21, 2023 14:27:33.586 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+3월 24, 2023 15:02:26.661 NEW SESSION
+3월 24, 2023 15:02:26.661 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+3월 31, 2023 14:28:08.469 NEW SESSION
+3월 31, 2023 14:28:08.469 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+4월 06, 2023 14:46:55.700 NEW SESSION
+4월 06, 2023 14:46:55.700 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 06, 2023 14:49:06.11 [16424:20360:0406/144906.010:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+4월 08, 2023 14:08:56.172 NEW SESSION
+4월 08, 2023 14:08:56.172 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 08, 2023 14:11:09.869 [14716:14720:0408/141109.869:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 08, 2023 14:12:32.442 [14716:14720:0408/141232.441:ERROR:device_event_log_impl.cc(222)] [14:12:32.441] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: ��Ұ� �����ϴ�. (0x490)
+4월 08, 2023 15:40:47.936 [14716:14720:0408/154047.912:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.732 s for first_image_paint 0.729 s
+4월 08, 2023 15:40:48.22 [14716:14720:0408/154048.022:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.732 s for first_image_paint 0.729 s
+4월 08, 2023 15:40:48.128 [14716:14720:0408/154048.128:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.732 s for first_image_paint 0.729 s
+4월 08, 2023 15:40:48.274 [14716:14720:0408/154048.273:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.732 s for first_image_paint 0.729 s
+4월 08, 2023 15:40:49.176 [14716:14720:0408/154049.176:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.732 s for first_image_paint 0.729 s
+4월 08, 2023 17:14:55.366 [14716:20240:0408/171455.364:ERROR:connection_factory_impl.cc(473)] ConnectionHandler failed with net error: -2
+4월 08, 2023 20:04:23.383 [14716:20240:0408/200423.382:ERROR:connection_factory_impl.cc(473)] ConnectionHandler failed with net error: -2
+4월 08, 2023 20:04:46.748 [14716:20240:0408/200446.747:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+4월 08, 2023 20:04:46.757 [14716:17104:0408/200446.757:ERROR:get_updates_processor.cc(264)] PostClientToServerMessage() failed during GetUpdates with error 2
+
+4월 14, 2023 24:25:40.532 NEW SESSION
+4월 14, 2023 24:25:40.532 [8596:18416:0414/002540.530:ERROR:backend_impl.cc(1040)] Critical error found -8
+4월 14, 2023 24:25:40.533 [8596:18416:0414/002540.530:ERROR:entry_impl.cc(1005)] Failed to save user data
+4월 14, 2023 24:25:43.785 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 15, 2023 14:09:56.979 [8596:7544:0415/140956.978:ERROR:connection_factory_impl.cc(473)] ConnectionHandler failed with net error: -2
+4월 15, 2023 14:16:57.541 [8596:8616:0415/141657.541:ERROR:device_event_log_impl.cc(222)] [14:16:57.541] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: ��Ұ� �����ϴ�. (0x490)
+4월 15, 2023 16:08:44.901 [8596:7544:0415/160844.900:ERROR:connection_factory_impl.cc(473)] ConnectionHandler failed with net error: -2
+4월 15, 2023 16:08:45.00 [8596:7544:0415/160844.999:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+4월 15, 2023 16:22:28.587 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 15, 2023 17:08:36.622 [11860:17520:0415/170836.621:ERROR:device_event_log_impl.cc(222)] [17:08:36.621] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: ��Ұ� �����ϴ�. (0x490)
+
+4월 17, 2023 19:23:20.590 NEW SESSION
+4월 17, 2023 19:23:20.590 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 17, 2023 19:28:12.674 [15808:10200:0417/192812.673:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 17, 2023 19:58:43.350 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+4월 17, 2023 19:59:06.77 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+4월 17, 2023 19:59:43.489 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+4월 17, 2023 20:00:00.865 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+4월 17, 2023 20:00:18.811 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+4월 17, 2023 20:00:47.13 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+4월 17, 2023 20:59:48.954 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+4월 17, 2023 21:11:31.101 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+
+4월 22, 2023 09:59:13.243 NEW SESSION
+4월 22, 2023 09:59:13.243 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 22, 2023 10:01:33.709 [12180:21064:0422/100133.708:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 22, 2023 10:01:41.878 [12180:21064:0422/100141.877:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+4월 24, 2023 15:27:20.506 NEW SESSION
+4월 24, 2023 15:27:20.506 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+4월 24, 2023 21:48:03.668 NEW SESSION
+4월 24, 2023 21:48:03.668 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+4월 26, 2023 14:49:00.378 NEW SESSION
+4월 26, 2023 14:49:00.378 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+4월 27, 2023 19:10:32.293 NEW SESSION
+4월 27, 2023 19:10:32.293 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 27, 2023 19:57:24.621 [14808:20604:0427/195724.619:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+
+4월 28, 2023 15:08:03.543 NEW SESSION
+4월 28, 2023 15:08:03.543 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 28, 2023 15:32:18.11 [24480:14316:0428/153218.010:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 28, 2023 18:28:00.925 [24480:24568:0428/182800.816:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+4월 28, 2023 18:49:23.37 [24480:14316:0428/184923.036:ERROR:device_event_log_impl.cc(222)] [18:49:22.739] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: ��Ұ� �����ϴ�. (0x490)
+4월 28, 2023 21:48:26.262 [24480:12712:0428/214826.203:ERROR:cert_verify_proc_builtin.cc(677)] CertVerifyProcBuiltin for global.ib-ibi.com failed:
+4월 28, 2023 21:48:26.262 ----- Certificate i=0 (CN=*.ib-ibi.com,O=KBM Group LLC,L=Louisville,ST=Colorado,C=US) -----
+4월 28, 2023 21:48:26.263 ERROR: Time is after notAfter
+4월 28, 2023 21:48:26.263 
+4월 28, 2023 21:48:26.263 
+
+4월 29, 2023 10:39:39.407 NEW SESSION
+4월 29, 2023 10:39:39.407 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 29, 2023 12:53:08.316 [7896:19576:0429/125307.944:ERROR:device_event_log_impl.cc(222)] [12:53:07.943] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: ��Ұ� �����ϴ�. (0x490)
+
+5월 01, 2023 13:58:40.600 NEW SESSION
+5월 01, 2023 13:58:40.600 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 01, 2023 14:01:19.166 [13988:23928:0501/140119.165:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+5월 01, 2023 14:01:48.143 [13988:23928:0501/140148.141:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+5월 01, 2023 14:02:39.377 [13988:23928:0501/140239.376:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+5월 01, 2023 14:04:28.170 [13988:23928:0501/140428.168:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+5월 01, 2023 14:08:01.988 [13988:23928:0501/140801.985:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+
+5월 02, 2023 14:49:14.24 NEW SESSION
+5월 02, 2023 14:49:14.24 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 02, 2023 14:54:22.360 [16700:18316:0502/145422.360:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+
+5월 02, 2023 15:29:14.956 NEW SESSION
+5월 02, 2023 15:29:14.956 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.

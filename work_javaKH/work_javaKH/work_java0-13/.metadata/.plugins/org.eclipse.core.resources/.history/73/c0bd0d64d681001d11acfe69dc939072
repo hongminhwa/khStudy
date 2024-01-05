@@ -1,0 +1,8 @@
+package ch07;
+
+public class RadioTest { public static void main(String[] args) {
+	
+
+     kbs = new Radio();
+} 
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>rounded-navi</title> 
+<style type="text/css">
+ul {
+	display: table; 
+	margin-left:auto;
+	margin-right:auto; 
+	
+}
+ul.navi li {
+	list-style-type: none;
+	display: block;
+	width: 10em;
+	float: left; 
+	text-align: center;
+	font-family: "lucida Grande", sans-serif;
+	border: 1px #818181 solid;
+	box-shadow: 5px 5px 10px #bbb;
+
+}
+/* 메뉴 링크 스타일 */
+u1.navi li a {
+	display: block; 
+	padding: .8em .5em .5em .5em; /* 0.8em ...  */
+	text-decoration: none; /* 밑줄 없앰  */
+	color: #292929; 
+	text-shadow: 1px 1px 0px #ccc; 	
+	}
+
+u1.navi li:hover {
+	background-color: #333333;
+	
+}
+/* 메뉴 링크 위로 마우스 오버한 후 링크 스타일   */
+u1.navi li:hover>a {
+	 color: aqua; 
+	 text-shadow: opx 1px 0px #fff; 
+}
+u1.navi li:first-child {/* li의 첫번쨰 항목  */
+   border-top-left-radius: 1em; 
+   border-bottom-left-radius: 1em;
+  
+}
+u1.navi li:last-child {
+	border-top-right-radius: 1em;
+	border-bottom-right-radius:1em;
+    }
+
+
+
+
+</style>
+
+</head>
+<body>
+<div>
+
+<ul class="navi"> 
+<li class="home"><a href="#">Home</a></li>
+<li id="html"><a href="#">Html5</a></li>
+<li id="home"><a href="#">CSS3</a></li>
+<li id="home"><a href="#">JQUERY</a></li>
+</ul>
+</div>
+<div>
+<ul>
+<li>짜장면</li>
+<li>짬뽕</li>
+<li>우동</li>
+</ul>
+
+</div>
+
+</body>
+</html>

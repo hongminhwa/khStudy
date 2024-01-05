@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<script type="text/javascript">
+function Company(deptno, name, id, email, hp)  {
+    this.deptno = deptno;
+    this.name= name;
+    this.id = id;
+    this.email = email;
+    this.hp = hp; 
+
+}
+
+myCompany = new Company("1234","홍길동","hong","hong@gmail.com","010-2233-2222");
+document.write("사번: " + myCompany.deptno + "이름: " + myCompany.name + "아이디: " + myCompany.id +
+		   "이메일 주소: " + myCompany.email + "전화번호:" + myCompany.hp + "<br>");
+
+
+myCompany.email ="hong2@naver.com";
+myCompany.hp = "010-2222-3333";
+
+document.write("사번: " + myCompany.deptno + "이름: " + myCompany.name + "아이디: " + myCompany.id +
+     "이메일 주소: " + myCompany.email + "전화번호:" + myCompany.hp);
+
+
+
+
+                      
+    
+  </script>
+</body>
+</html>

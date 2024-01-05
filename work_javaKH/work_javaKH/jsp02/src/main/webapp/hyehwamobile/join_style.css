@@ -1,0 +1,109 @@
+@charset "UTF-8";
+.div1 {
+	width: 800px; 
+	height: 720px; 
+	background-color: #deeaf6;
+	display: flex;
+	justify-content: center; 
+	padding-top: 50px; 
+	
+}
+.div2 {
+	width: 480px; 
+	height: 500px;
+	background-color: #ededed;
+	
+}	
+.pwd1_box, .pwd2_box, .email_box, .address_box, .phone_box, .birth_box,.name{
+	padding-left: 50px; 
+	padding-top: 20px; 
+}	
+.id_box {
+	padding-left: 50px; 
+	padding-top: 80px; 
+}
+
+#user_id, #email1 {
+	display: inline; 
+	margin-left: 80px; 
+	border-bottom: 1px dashed; 
+	border-left: none; 
+	border-right: none; 
+	border-top: none;
+	background-color: white;
+	
+}
+#email2 {
+	display: inline; 
+	border-bottom: 1px dashed;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	background-color: white;
+}
+#pwd1 {
+	display: inline;
+	margin-left: 65px;
+	border-bottom: 1px dashed;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	background-color: white;
+}
+
+#pwd2 {
+	display: inline; 
+	margin-left: 25px; 
+	border-bottom: 1px dashed;
+	border-left: none;
+	border-right: none; 
+	border-top: none;
+	 background-color: white;
+	 
+
+}
+
+ #address {
+	display: inline; 
+	margin-left: 95px;
+	border-bottom: 1px dashed;
+	border-left: none; 
+	border-top: none;
+	background-color: white;
+	
+}
+
+#address2 {
+	display: inline;
+	margin-left: 128px;
+	border-bottom: 1px dashed;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	background-color: white;
+	margin-top: 25px;
+}
+#phone {
+	display: inline;
+	margin-left: 65px;
+	border-bottom: 1px dashed;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	background-color: white;
+
+
+}
+
+	
+#submit {
+	width: 400px;
+	height: 50px;
+	margin-top: 50px; 
+	margin-left: 40px;
+	border: 1px solid #dae7d6;
+	background-color: #c1d9b0;
+	font-size: 16px;
+	font-weight: bold;
+	
+}

@@ -1,0 +1,25 @@
+package ch07;
+
+public class PersonUse2 {    
+	public static void main(String[] args) {
+		
+		Person2 p2 = new Person2();
+		p2.setname("홍길동");
+		p2.setAge(30); 
+		p2.setEmail("hong@naver.com");
+		p2.setAddress("서울시 강남구 압구정동");
+		
+		System.out.println("이름: " + p2.getName());
+		System.out.println("나이 : " + p2.getAge());
+		System.out.println("이메일 :" + p2.getEmail());
+		System.out.println("주소 :" + p2.getAddress());
+		
+		
+	    
+		
+	}
+	
+	
+	  
+		
+}

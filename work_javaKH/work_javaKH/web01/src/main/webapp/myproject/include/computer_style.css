@@ -1,0 +1,117 @@
+ul {
+    display: table; 
+    margin-left:auto; 
+    margin-right:auto;	
+}
+ul.navi li {
+	list-style-type:none;
+	display: block;
+	width: 10em;
+	float: left;
+	text-align: center; 
+	font-family: sans-serif;
+	border:1px #00ffff solid;
+	box-shadow: 5px 5px 10px #bbb;
+}
+ul.navi li a{
+	display: block; 
+	padding: .8em .5em .5em .5em;
+	text-decoration: none;
+	color: aqua; 
+	text-shadow: 1px 1px 0px #ccc;
+	
+}
+u1.navi li:hover {
+	background-color: navy;
+}
+u1.navi li:first-child {
+	border-top-left-radius: 1em;
+	border-bottom-left-radius: 1em;
+	
+}
+
+u1.navi li:last-child {
+	border-top-right-radius: 1em;
+	border-bottom-right-radius:1em;
+}
+#container {
+    background-color: white;
+    display: flex;
+    position: relative;
+    top:100px;
+    left:300px;
+    width:500px;
+    font-size: 10px;
+
+}
+#container2 {
+  background-color: white;
+  display: flex;
+  position: relative;
+  top: 100px;
+  left:300px;
+  width:500px;
+  font-size: 10px;
+}
+#container3 {
+	background-color: white;
+	position: relative;
+	display: flex;
+	bottom: 900px;
+	left: 900px;
+	width: 500px;
+	font-size: 10px;
+	color: black; 
+}
+#container4 {
+	background-color: white;
+	position: relative;
+	display: flex;
+	left: 900px;
+	bottom: 850px;
+	font-size: 10px;
+	color: black;
+}
+
+.book li {
+	font-size: large;
+	font-style: bold; 
+	
+
+}
+.book p {
+	font-size: large;
+	font-style: bold;
+
+}
+.desktop li {
+	font-size: large;
+	font-style: bold;
+}
+.desktop p {
+	font-size: large;
+	font-style: bold;
+}
+.monitor li {
+	font-size: large;
+	font-style: bold;
+}
+.monitor p {
+	font-size: large;
+	font-style: bold;
+}
+.allinone li {
+	font-size: large;
+	font-style: bold;
+}
+.allinone p {
+	font-size: large;
+	font-style: bold;
+}
+
+
+
+
+
+
+

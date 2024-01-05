@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="../include/jquery-3.6.3.min.js"></script>
+<script type="text/javascript">
+$(function() {
+	//선택자.on({이벤트: 함수,  이벤트: 함수})
+	$("img").on({
+		mouseout: function() { //mouseout은 mouse가 빠져나갈 때 
+			$("img").attr("src","../images/i0075.jpg");
+			
+		},
+		mouseover : function() {  //마우스 올라갈 때 
+			$("img").attr("src","../images/i0076.jpg");
+			
+		},
+		click:  function() {
+			$("img").attr("src","../images/i0073.jpg");
+		}
+	});
+	
+});
+
+
+
+</script>
+
+</head>
+<body>
+<img alt="" src="../images/i0075.jpg"> 
+
+
+</body>
+</html>

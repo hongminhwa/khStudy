@@ -1,0 +1,9 @@
+package ch09;
+
+public class RectangleShape  extends Shape{    
+	
+	public static void main(String[] args) {  
+	
+	}
+
+}

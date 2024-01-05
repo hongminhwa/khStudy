@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Insert title here</title>
+<style type="text/css">
+#container {
+    height: auto;
+    border: 1px solid black; 
+    width:auto;
+
+}
+
+
+</style>
+
+</head>
+<body>
+     <h2>공지사항 작성하기</h2> 
+     <div id="container">    
+   <form method="post" action="insert.no"> 
+   제목 : <input type="text"  size="15" id="title" placeholder="제목을 입력하세요"> <br> 
+    내용 : <input type="text" style="width:300pax; height:300px;" id="content"
+           placeholder="내용을 입력하세요"><br>
+     첨부파일 <input type="file" id="input-file"> <br> 
+	 <input type="button" value="작성하기">        
+	</form>
+ </div>
+</body>
+</html>

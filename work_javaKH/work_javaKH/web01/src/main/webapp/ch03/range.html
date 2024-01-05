@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> range</title>
+</head>
+<body>
+<form name="form1">
+<!-- - onchange : 이벤트 함수로 range가 변화할 때 작동한다 -->
+<input type="range" name="range" min="1" max="100" 
+onchange="document.form1.rangeout.value=this.value">
+<output name="rangeout" for= "range">50 </output>
+</form>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>Insert title here</title>
+<%@ include file="../include/header.jsp" %>
+<style type="text/css">
+.title {
+  margin-top: 90px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600
+}
+
+body {
+	background-color: #F5FFFA;
+}
+.home h2{
+	margin-top: 70px;
+	text-align: center; 
+	font-family: brush script mt;
+ 	color:blue;
+}
+.home a{
+	text-decoration: none;
+	color: black;
+}
+.header {
+	display: float;
+}
+
+.container {
+   position: relative; 
+   bottom: 600px; 
+   left: -240px;
+}
+
+.container p{ 
+	font-size: 50px;
+}
+
+
+
+</style>
+<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+</head>
+<div class="home"> 
+<h2 style="font-size: 100px;"><a href="Index2.jsp">hyehwaPlate</a></h2><br><br>
+<hr> 
+</div>
+<body>  
+<div class="header">  
+
+<img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20160324_226%2F1458805389190EN05E_JPEG%2F176272633428154_0.jpeg"  style="width: 600px; height: 300px; ">
+<img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fnaverbooking-phinf.pstatic.net%2F20230317_65%2F1679015511274hSJTB_JPEG%2FIMG_2179.jpg" style="width: 600px; height: 300px;">
+<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA0MTVfNTkg%2FMDAxNjgxNTYyNjEyMzgw.rGby2qloZ6DwA_1RYx-qRL2j3gZjYRSHSdJuV9VZhwwg.6c3kZZvRIBZ8xIvbZ47fH8PPZu9bAmMp-QJDAhyCPJ8g.JPEG.sunmi3172%2F%25C7%25FD%25C8%25AD_%25BC%25FA%25C1%25FD_%25285%2529.JPG" style="width: 600px; height: 300px; "> 
+<img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyMzA0MTBfMTg5%2FMDAxNjgxMTE0MDMyMzcw.nqQc_2sipl-MORrNGb8IbYunsi7zHKRxqOZqlnZ0EzYg.7hNF5I8MY3YlXumRwOAYfCc9Z083faOLadzEg_9MZlYg.JPEG%2F20230409_174802.jpg" style="width: 600px; height: 300px; ">
+<img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyMzA0MTBfMTg5%2FMDAxNjgxMTE0MDMyMzcw.nqQc_2sipl-MORrNGb8IbYunsi7zHKRxqOZqlnZ0EzYg.7hNF5I8MY3YlXumRwOAYfCc9Z083faOLadzEg_9MZlYg.JPEG%2F20230409_174802.jpg" style="width: 600px; height: 300px;">
+
+</div>
+<div  align="right" class="map">
+
+<div id="daumRoughmapContainer1682594210004" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+3. 실행 스크립트
+<script charset="UTF-8">
+	new daum.roughmap.Lander({
+		"timestamp" : "1682594210004",
+		"key" : "2ekyq",
+		"mapWidth" : "800",
+		"mapHeight" : "800"
+	}).render();
+</script>
+</div>
+
+<div class="container"> 
+<h1 style="text-align: center; font-size: 85px; ">수도원</h1>
+<hr>
+<p>주소 서울 종로구 동숭3길 16  </p>
+<p>혜화역 2번출구에서 341m</p>
+<p>주차공간 없음</p>
+<p>매일 17:00~ 01:00 </p>
+<p>전화번호 02-747-1933</p>
+<p>성찬 플레이트 25000원 </p>
+<p>화이트 치즈케이크 9500원</p>
+<p>올드 라스푸틴 13000원</p> 
+<p>델리리움 트레멘스 15000원</p>
+<p>몽크하이볼 15000원</p>
+<p>수도사 아포가토 13000원</p>
+<hr> 
+<p>붉은 벽돌 건물의 지하, 중세시대 수도원이 연상되는  
+공간에서 주로 수도원 맥주를 판매합니다.</p>
+</div>
+
+
+
+
+
+
+
+</body>

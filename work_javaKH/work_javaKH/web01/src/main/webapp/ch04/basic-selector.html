@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+*{
+   margin: 5px; padding: 5px;  /* 전체 선택자*/
+   }
+#id1{ border: dashed red;} /* px 생략하면 3px자동 적용 */
+
+.class2{ border: dotted blue; color: purple;}
+span {font-weight:bold;}
+#id1 > span {color: green;} /* id태그의 직계 span태그만 */ 
+#id2 span {color: pink;} /*id2태그 아래 자손 span태그 */
+#id1 > ul > li {color: black} /* id1의 직계 ul의 직계 li태그 */ 
+#id1 > ul li {background-color:yellow;} /*id1의 직계 ul의 자손 li태그*/
+#id1 li {border: double;}  /* id1의 자손 li태그*/  
+#id2  >.class2 > h3 {color: red; } /* id2의 직계 class2태그의 직계 h3태그 소나무 */ 
+#id2 >.class2 h4 {color: orange;} /*id2의 직계 class2태그의 아래 자손태그중 h4태그 */
+/* 형제 선택자 */ 
+h3 + h4 {text-align: center;}  /* h3바로 다음에 h4형제 태그 */
+h3 ~ h4 {background-color: gray;} /* h3 다음에 있는 모든 h4형제 태그 선택 */
+#id2 > .class2 h3 ~ h4 {border: solid;} /* id2 태그의 직계 class2의 자손 태그 h3 다음에 있는 
+모든 h4형제태그에 적용*/ 
+
+
+
+</style>
+
+</head>
+<body>
+
+<div id="id1">div스타일1
+<span>span스타일1</span>
+<span>span스타일2</span>
+<p>p스타일1
+<span> span스타일4</span>
+</p>
+<ul class="class1"> 
+<li>하늘</li>
+<li> 바다 </li>
+</ul>
+</div>
+<div id="id2">div 스타일2 
+<span>span스타일4</span>
+<span>span스타일5</span>
+<p>p스타일2
+<span>span스타일6</span>
+</p>
+</div>
+<div class="class2"> 
+<h4>전나무</h4>
+<h3>소나무</h3>
+<h4>개나리</h4>
+<h5>밤나무</h5>
+<h4> 딘달래</h4>
+</div>
+
+</body>
+</html>

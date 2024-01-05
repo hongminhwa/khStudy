@@ -1,0 +1,12 @@
+package ch07;
+
+public class BookStoreUse {
+	BookStore bs = new BookStore();
+	
+	
+//	bs.setBookName("Java"); 
+//	bs.setAuthor("김선생");
+//	bs.setPress("영진"); 
+
+}
+}

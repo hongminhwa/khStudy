@@ -1,0 +1,112 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>Insert title here</title>
+<%@ include file="../include/header.jsp" %>
+<style type="text/css">
+.title {
+  margin-top: 90px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600
+}
+
+body {
+	background-color: #F5FFFA;
+}
+.home h2{
+	margin-top: 70px;
+	text-align: center; 
+	font-family: brush script mt;
+ 	color:blue;
+}
+.home a{
+	text-decoration: none;
+	color: black;
+}
+.header {
+	display: float;
+}
+
+.container {
+   position: relative; 
+   bottom: 600px; 
+   left: -240px;
+}
+
+.container p{ 
+	font-size: 50px;
+}
+
+
+
+</style>
+<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+</head>
+<div class="home"> 
+<h2 style="font-size: 100px;"><a href="Index2.jsp">hyehwaPlate</a></h2><br><br>
+<hr> 
+</div>
+<body>  
+<div class="header">  
+
+<img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200707_97%2F15941034167807pVqQ_PNG%2FuYW4DaKo8MRIZjh7L_GxgjZX.png"  style="width: 600px; height: 300px; ">
+<img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyMzA0MjNfMTAw%2FMDAxNjgyMjE3OTk2NTY4.lAzjGy8oSMb-Z8sCBJFAJEVzovOCjfZ8-dDk16LAFFAg.W6UFUZqjWkMgF2h4nFkSYeau4yIC-mSc2qiK1ABzJqwg.JPEG%2F1000015479.jpeg" style="width: 600px; height: 300px;">
+<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjEyMTRfMTYz%2FMDAxNjcwOTg1MDk3NTM0.u9MJTxI9sUid-63qrnXaBffgBiGZanJXg4-xxpZOeFog.H2mq7seZUkRcZhWU58uSRl3MYDTfMzoddBNxOysRw_Mg.JPEG.wldyd1220%2F2022.12.14_%25281%2529.jpg" style="width: 600px; height: 300px; "> 
+<img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyMzA0MTZfMTc2%2FMDAxNjgxNjI1NTEwMDUy.rJUPwUo3o1GZZveC24hkZpSLwls5bcQnMuj4eHDGLm0g.mdSoxdP6_0Dr_7H9sQkv9pfHGbO1lPpEcAWNBKYH-fYg.JPEG%2FFAD0146C-BB12-4D99-8B8F-869549D5D32D.jpeg" style="width: 600px; height: 300px; ">
+<img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyMzA0MTRfMjUz%2FMDAxNjgxNDU3NzUwOTQ5.071-zj8aPWzr9XACRyrwdAaHnnKBE0ZLu0zAcgdERI8g.FHwD8fQxTDlUa5m_cyScfnVC-KnhIJgil3oSjREWYNYg.JPEG%2F0F385F1C-F7DC-4A26-9A9D-8775FC3F33B6.jpeg" style="width: 600px; height: 300px;">
+
+</div>
+<div  align="right" class="map">
+
+
+
+
+<div id="daumRoughmapContainer1682505468351" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+3. 실행 스크립트
+<script charset="UTF-8">
+	new daum.roughmap.Lander({
+		"timestamp" : "1682505468351",
+		"key" : "2ekgo",
+		"mapWidth" : "800",
+		"mapHeight" : "800"
+	}).render();
+</script>
+</div>
+<div class="container"> 
+<h1 style="text-align: center; font-size: 85px;">토끼정 대학로점 </h1>
+<hr>
+<p>주소 서울 종로구 대학로 129-9</p>
+<p>혜화역 1번출구에서 93m </p>
+<p>주차공간 없음</p>
+<p>영업시간 11:30~21:30  </p>
+<p>브레이크타임 없음</p>
+<p>전화번호 02-742-8555</p>
+<p>메뉴</p>
+<p>지도리 우동 9000원</p>
+ <p>니꾸우동  9000원</p>
+ <p>카즈네우동 9000원 </p>
+ <p>지도리소바 9500원</p>
+ <p>니꾸소바 9500원 </p>
+ <p>키즈네소바 8500원</p>
+  <p>자루우동 8000원</p>
+  <p>자루소바 8500원</p> 
+<hr>
+
+</div>
+
+
+
+
+
+
+
+</body>

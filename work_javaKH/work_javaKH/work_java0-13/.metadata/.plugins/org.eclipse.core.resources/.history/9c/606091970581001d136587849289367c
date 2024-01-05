@@ -1,0 +1,19 @@
+package ch06;
+
+public class ReturnEx {    
+	//리턴값 있는 메소드 .
+	public static int sum(int a) {  // sum 메소드 
+			int result = 0; // 이 주석 값 이 return과 단위 같아야함 
+			for(int i=1; i<=0; i++) {
+				result = result + i;
+				
+			}
+			return result; 
+	}
+	
+     public static void main(String[] args) {
+		  int n= sum(50); 
+		  System.out.println(n);
+	}
+
+}

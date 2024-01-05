@@ -1,0 +1,405 @@
+.rice {
+	display: flex; 
+	position: relative; 
+	left: 70px;
+
+}
+
+.soup {
+	  display: flex; 
+	  position: relative; 
+	  bottom: 250px;
+	  left: 850px;	
+	
+
+}
+.seafood {
+	display: flex; 
+	position: relative; 
+	left:1650px;
+	bottom: 500px;
+
+}
+.meat {
+	display: flex; 
+	position: relative; 
+	bottom: 450px;
+ 	left: 70px;
+}
+.noodle {
+	display: flex;
+	position: relative; 
+	left: 850px;
+	bottom: 700px;
+
+}
+.snack {
+	display: flex; 
+	position: relative; 
+	left: 1650px;
+	bottom: 950px;
+
+}
+.western {
+    display: flex; 
+    position: relative; 
+    left: 70px;
+    bottom: 840px;
+
+}
+.western1 {
+	display: flex; 
+	position: relative; 
+	left: 640px;
+	bottom: 1090px;	
+}
+.western2 {
+	display: flex; 
+	position: relative; 
+	left: 1230px; 
+	bottom: 1341px; 
+}
+.western3 {
+    display: flex; 
+    position: relative; 
+    left: 1800px;
+    bottom: 1592px;
+}
+.eastern1 {
+	display: flex;
+	position: relative; 
+	left: 67px; 
+	bottom: 1542px;
+}
+
+.eastern2 {
+   display: flex; 
+   position: relative;
+   left: 640px;
+   bottom: 1792px;  
+}
+.eastern3 {
+	display: flex; 
+	position: relative;
+	left: 1229px; 
+	bottom: 2041px;
+}
+.eastern4 {
+	display: flex;
+	position: relative;
+	left: 1800px;
+	bottom: 2291px;
+}
+.alchol {
+	display: flex; 
+    position: relative; 
+    left: 10px; 
+	bottom: 2150px;
+}
+.alchol1 {
+	   display: flex; 
+	   position: relative; 
+	   left:  570px;
+	   bottom: 2400px;
+
+}
+.alchol2 {
+		display:flex; 
+		position: relative;
+		left: 1130px;
+		bottom: 2649px;	
+}
+.alchol3 {
+ 	display: flex; 
+ 	position: relative; 
+ 	left: 1685px; 
+	bottom: 2901px;
+}
+.alchol4  {
+	display: flex; 
+	position: relative;
+	left: 2240px; 
+	bottom: 3151px;
+}
+
+.dessert {
+       display: flex; 
+       position: relative; 
+       left: 10px; 
+       bottom: 2950px;
+
+}
+.dessert1 {
+	display: flex; 
+	position: relative; 
+	left: 600px; 
+	bottom: 3201px;
+
+
+}
+.dessert2 {
+	display: flex; 
+	position: relative; 
+	left: 1200px; 
+	bottom: 3451px;
+
+}
+
+.main_screen {
+   position: relative;
+}
+.main_screen_text {
+	position:absolute; 
+	text-align:center;
+	top:80%; 
+	left:1%;
+	font-family:cursive;
+	font-size: 50px; 
+	color: navy; 	
+}
+
+.main_screen_text2 {
+	position: absolute; 
+	text-align: left;
+	top:1%; 
+	left: 1%;
+	font-size: 30px; 
+	color: navy;
+	font-family: brush script mt;
+}
+
+.hyehwa_list1 ul{
+		float: left;
+}
+
+
+.title {
+	 font-size: 20px; 
+	font-style: godic;
+
+}
+body {
+	background-color: #F5FFFA;
+
+}
+.rice2 {position: relative;}
+.rice2_text {
+
+	position: absolute; 
+	transform: translate (-80%, -80%);
+	color: black; 
+	font-size: 40px;
+	font-style: godic;
+	bottom: 1px;
+}
+.soup2 {position: relative;}
+.soup2_text {
+	position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 40px; 
+	font-style: italic;
+	bottom: 1px;
+
+}
+.seafood2 {position: relative;}
+.seafood_text {
+	position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 37px; 
+	font-style: italic;
+	bottom: 1px;	
+}
+.meat2 {position: relative; }
+.meat_text {
+	position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 37px; 
+	font-style: italic;
+	bottom: 1px;	
+}
+.noodle2 {position: relative;}
+.noodle_text{ 
+    position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 37px; 
+	font-style: italic;
+	bottom: 1px;
+}
+.snack2 {position: relative;}
+.snack_text{
+    position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 39px; 
+	font-style: italic;
+	bottom: 1px;
+}
+.pizza {position: relative;} 
+.pizza_text{
+   position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 39px; 
+	font-style: italic;
+	bottom: 1px;
+}
+.burger {position: relative;} 
+.burger_text{
+   position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 39px; 
+	font-style: italic;
+	bottom: 1px;
+}
+.france{position: relative;}
+.france_text{
+    position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 39px; 
+	font-style: italic;
+	bottom: 1px;
+	
+}
+.steak{position: relative;} 
+.steak_text{
+	position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 39px; 
+	font-style: italic;
+	bottom: 1px;
+	
+}
+.beer{position: relative;}
+.beer_text{
+	position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 39px; 
+	font-style: italic;
+	bottom: 1px;
+}
+.wine{position: relative;}
+.wine_text{
+	position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 39px; 
+	font-style: italic;
+	bottom: 1px;
+
+}
+.ricewine{position: relative;}
+.ricewine_text{
+	position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 41px; 
+	font-style: italic;
+	bottom: 1px;
+
+}
+.sake{position: relative;}
+.sake_text{
+	position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:orange; 
+	font-size: 35px; 
+	font-style: godic;
+	bottom: 1px;
+}
+
+.cartbar{position: relative;}
+.cartbar_text{
+     position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 39px; 
+	font-style: godic;
+	bottom: 1px;
+	
+
+}
+.sushi {position: relative;}
+.sushi_text{
+	position: absolute; 
+	transform: translate (-80%, -80%); 
+	color: yellow;
+	font-size: 39px; 
+	font-style: godic;
+	bottom: 1px;
+}
+.china{position: relative;}
+.china_text{
+	position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 39px; 
+	font-style: godic;
+	bottom: 1px;
+}
+
+.indo{position: relative;}
+.indo_text{
+	position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 39px; 
+	font-style: godic;
+	bottom: 1px;
+}
+.vietnam{position: relative;}
+.vietnam_text{
+	position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:black; 
+	font-size: 39px; 
+	font-style: godic;
+	bottom: 1px;
+
+}
+.coffee{position: relative;}
+.coffee_text{
+	position: absolute; 
+	transform: translate (-80%, -80%); 
+	color:white; 
+	font-size: 39px; 
+	font-style: godic;
+	bottom: 1px;
+}
+.bakery{position: relative;}
+.bakery_text{
+	position: absolute; 
+	transform: translate (-80, 0); 
+	color: black; 
+	font-size: 39px; 
+	font-style: godic; 
+	bottom: 1px; 	
+}
+.icecream{position: relative;}
+.icecream_text{
+	position: absolute;
+	transform: translate(-80,0);
+	color: black; 
+	font-size: 39px; 
+	font-style: godic; 
+	bottom: 1px; 
+}
+.title2 {
+   position: relative; 
+   bottom: 900px;
+}
+.title3 {
+   position: relative; 
+   bottom: 2200px;
+}
+.title4 {
+	position: relative; 
+	bottom: 3100px;
+}

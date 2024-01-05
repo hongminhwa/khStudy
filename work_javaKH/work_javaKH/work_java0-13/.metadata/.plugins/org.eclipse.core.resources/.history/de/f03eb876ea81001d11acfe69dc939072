@@ -1,0 +1,16 @@
+package ch07;
+
+public class Personuse2 {    
+	public static void main(String[] args) {
+		
+		Person bnb = new Person();
+		bnb.setName("홍길동");
+		bnb.setAge(30);
+		bnb.setEmail("hong@naver.com");
+		
+	}
+	
+	
+	  
+		
+}

@@ -1,0 +1,16 @@
+package ch06;
+
+public class RecursiveEx {   
+	
+	
+	static long fact1(int n) { // 팩토리얼 공식. 
+		return n==1? 1 : n*fact1(n-1); // 재귀 호출 
+		
+	}
+	
+	public static void main(String[] args) {
+		System.out.println(fact1(20)); // 5곱하기 4곱하기 3 곱하기  
+		
+	}
+     
+}

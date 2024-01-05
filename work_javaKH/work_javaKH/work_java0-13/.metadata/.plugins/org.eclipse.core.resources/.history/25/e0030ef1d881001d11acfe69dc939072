@@ -1,0 +1,12 @@
+package ch07;
+
+public class Radio {  public static void main(String[] args) {
+
+	int channel;  // 전역변수. 초기화 x  0이라는 값이 자동 할당됨.  
+	int volume; 
+	boolean onOff;   
+	
+
+}
+
+}

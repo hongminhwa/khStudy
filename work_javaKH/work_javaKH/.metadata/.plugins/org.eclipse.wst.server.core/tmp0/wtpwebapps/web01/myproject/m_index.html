@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+<title>myProject</title>
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+<style type="text/css">  
+
+
+p {
+	 font-size: medium;
+	 font-style: bold;
+	 
+
+}
+
+
+
+
+
+
+</style>
+
+
+</head>
+<body>
+
+<div data-role="page" id="home">
+<div data-role="header" data-theme="b" data-position="fixed">
+<h1>myProject </h1>
+</div> 
+<div data-role="listview" data-filter="true"   data-filtertext="true">
+ <p>삼성 전자 제품 소개 페이지입니다. </p> 
+ <ul data-role="listview" data-inset="true">
+ <li> <a href="#mobile">모바일제품 </a> </li>
+ <li> <a href="#kitchen"> 주방가전</a></li>
+ <li> <a href="#household">생활가전</a> </li>
+ <li> <a href="#computer">PC/주변기기</a></li>
+ <li> <a href="#TV">텔레비젼</a>
+  </ul>
+</div>
+<div data-role="footer" data-position="fixed">  
+<h2>Copyright &copy; 2023 hongminhwa </h2>
+</div>
+</div>
+
+<div data-role="page" id="mobile">
+<div data-role="header" data-theme="b" data-position="fixed">
+<h1>모바일</h1>   
+</div> 
+<div data-role="collapsible"> 
+ <img src="mobile/galaxy.jpg" width="20%"> 
+ <h1> 갤럭시 23</h1>
+<p>디스플레이 6.1인치 FHD아몰레드와 카메라 5000만화소<br> 램 8g 
+ 용량 128,256gb<br> 배터리 3900mAh의 성능을 자랑하며 <br>색상은 블랙, 그린 
+ 퍼플이 있고<br> 공시 가격은 1155000원이다. </p>
+</div>
+<div data-role="collapsible">
+<img src="mobile/tabs8.jpg" width="20%">
+<h1>갤럭시탭 S8</h1> 
+<p>퀄컴 스냅드래곤 8gen1이라는 고성능 프로세서를 탑재하였고 <br>
+디스플레이는 11인치 16:10 비율을 통해 보다 <br> 
+광활하고 생생한 대화면과 웅장한 베이스로 음악과 동영상 시청이좋다.<br> 
+120도 전면 와이드 카메라로 나의 얼굴뿐 아니라 내가 있는 공간 까지 <br>
+담을 수 있으며 실제 펜과 더 가까워 질만큼 향상된 S펜을 이용하면<br> 
+당신의 필기,드로잉, 그래픽 디자인 영상편집까지 충분합니다.<br> 
+공시가격:998800원 </p>
+</div>
+<div data-role="collapsible"> 
+<img src="mobile/buds2pro.jpg" width="20%"> 
+<h1> 갤럭시버즈프로2 </h1>
+<p>무선으로 스튜디오급 24bit Hi-fi 고품질사운드를 지원하고<br>
+  향상된 액티브 노이즈 캔슬링으로 더 많은 외부 소음을 감지하고 제거합니다.<br> 
+  음악을 듣다가 대화를 시작할 떄 이어폰을 빼지 않아도 대화를 자동으로 감지하여<br> 
+  음악 소리를 자동으로 줄이고 주변음 듣기 기능 활성화합니다.<br>  
+  스마트싱스파인드 앱을 통해 잃어버려도 쉽게 위치추적 기능으로 찾아낼 수 있습니다.<br> 
+  공시가격: 199000원</p>
+  </div>
+
+<div data-role="collapsible"> 
+<img src="mobile/watch.jpg" width="20%"> 
+<h1>갤럭시워치5 44m</h1>
+<p> 잔기스나 스크래치에 강한 사파이어 크리스탈 <br> 
+빨라진 충전 속도와 더 커진 배터리 용량 <br> 
+ 더 정확해진 수면 측정 기능으로 취침 시간을 계획하고,<br> 
+ 수면 단계(수면중 깸, 얕은 수면, 깊은 수면, 렘수면)을 파악할 수 있다.<br>
+ 삼성 바이오액티브 센서가 체성분, 심전도, 광학 혈합을 분석해주고 제어해준다. <br> 
+ 공시가격: 358400원
+</p> 
+</div>
+
+<div data-role="footer" data-position="fixed" data-theme="b">
+ <h2>Copyright &copy; 2023 hongminhwa </h2>
+</div>
+</div>
+
+
+<div data-role="page" id="kitchen">
+<div data-role="header" data-theme="b" data-position="fixed">
+<h1>주방가전 </h1>
+</div>
+<div data-role="collapsible">
+<img src="kitchen/fridge.jpg" width="20%"> 
+<h1>냉장고 BESPOKE 4도어 875L</h1>
+<p>공간에 스며드는 자연스러운 디자인 <br> 
+냄새 섞임 없이 트리플 독립냉각기능과 <br> 
+7단계 변온으로 김치부터 살얼음까지 맞춤 보관실 <br>
+재료 본연의 맛을 지켜주는 미세정온과 Smart Thing Homecare를 통한 <br> 
+스마트 기기로 상태 모니터링이 가능하다. <br> 
+공시가격은 2340000원 
+</p> 
+</div> 
+
+<div data-role="collapsible"> 
+<img src="kitchen/induction.jpg" width="20%"> 
+<h1>BESPOKE 인덕션 빌트인 INFINITELINE</h1>
+<p>더 넓게 빈틈없이 가열하는 올플렉스 플러스존 <br> 
+강력한 화력으로 조리를 더 빠르게 7400W 최고 출력 지원 <br> 
+밀키트 간편식도 바코드 스캔 한번으로 알아서 요리해주는 스캔 쿡 <br> 
+전문가의 노하우를 그대로 자동 맞춤 요리를 해줍니다.<br> 
+공시가격: 2290000원</p>
+</div>
+
+<div data-role="collapsible"> 
+<img src="kitchen/diswasher.jpg" width="20%"> 
+<h1>BESPOKE 식기세척기 프리스탠딩 12인용</h1>
+<p> 나를 위해 맞춘 키친테리어 BESPOKE 디자인 <br>
+특허 출원된 정수기술로 세척수까지 안심 <br> 
+빈틈없이 강력하게 압도적 클린 4단 입체 물살 <br> 
+한국형 식기에 최적화된 3단 수납 <br> 
+공시가격: 1690000원 
+</p>
+</div>
+
+<div data-role="collapsible"> 
+<img src="kitchen/oven.jpg" width="20%"> 
+<h1>BESPOKE 오븐 35L</h1>
+<p>나에게 맞춘 키친테리어 BESPOKE 디자인 <br> 
+겉은 바삭 속은 촉촉 강력한 직화열풍 <br> 
+더 쉽고 입맛에 딱 맞게 맞춤 요리 <br> 
+모바일 음성제어로 간편해진 스마트쿠킹 <br> 
+바코드 조리로 편리해진 간편식 스캔 <br> 
+공시가격: 800000원 
+</p>
+</div>
+
+<div data-role="footer" data-position="fixed" data-theme="b">  
+<h2>Copyright &copy; 2023 hongminhwa </h2>
+</div>
+</div>
+
+
+<div data-role="page" id="household">
+<div data-role="header" data-theme="b" data-position="fixed">
+<h1>생활가전</h1>
+</div> 
+
+<div data-role="collapsible">
+<img src="house/laundary.jpg"> 
+<h1>BESPOKE 그랑대 AI 올인원 </h1> 
+<p>세탁에서 건조까지 하나되어 맞추다 <br> 
+당신의 공간에 딱 맞추는 비스포크 디자인 <br> 
+심플함에 자유로움을 더한 심플렉스 디자인 <br> 
+세탁부터 건조까지 AI 의류 케어 <br> 
+그랑데 AI를 스마트 싱스로 연결하면 우리집도 스마트홈 <br> 
+공시 가격: 2958000원 
+ </p>
+</div>
+
+<div data-role="collapsible"> 
+<img src="house/air.jpg"> 
+<h1>BESPOKE 큐브 AIR </h1>
+<p> 실내 공기질까지 학습하는 맞춤청정 AI+ <br> 
+필터 속 향균,살균,공간제균까지 트리플 안심청정 <br> 
+꺾임 없는 직렬구조로 빠르게 하이페스 강력 청정 <br> 
+공시가격: 1690000원 
+</p>
+</div>
+
+<div data-role="collapsible"> 
+<img src="house/vaccum.jpg"> 
+<h1>BESPOKE 제트 220W</h1>
+<p> 특허 기술로 강력해진 220W 최경량 청소기 <br> 
+충전과 비움을 스마트하게 일체형 청정 스테이션 <br> 
+미세먼지 배출 차단과 향균 케어 위생관리 솔루션 <br> 
+청소 구역과 목적에 맞춰 더 깨끗하게 전용 브러시 지원 <br> 
+공시가격 : 1349000원 
+</p>
+</div>
+
+<div data-role="collapsible"> 
+<img src="house/aircon.jpg"> 
+<h1>BESPOKE 무풍 에어컨 갤러리 청정</h1>
+<p> 가구 같은 가전 갤러리 디자인 <br> 
+사각지대 없이 빠르고 쾌적한 하이페스 서큘 냉방<br> 
+공간에 냉기를 빈틈없이 채워주는 Metal Cooling <br> 
+직바람 없이 하루종일 시원한 와이드 무풍 냉방 <br> 
+공시가격: 2599000원 
+</p> 
+</div>
+
+<div data-role="footer" data-position="fixed">  
+ <h4> 꼬리말(footer)영역</h4>
+</div>
+</div>
+
+<div data-role="page" id="computer">
+<div data-role="header" data-theme="b" data-position="fixed">
+<h1>컴퓨터/주변기기</h1>
+</div>
+<div data-role="collapsible">
+<img src="computer/book.jpg"> 
+<h1> 갤럭시북2프로</h1>
+<p>비교 불가한 두께와 무게 초슬림&초경량 <br> 
+실제와 가까운 색감으로 즐기는 AMOLED 디스플레이 <br> 
+안전한 작업 환경을 제공하는 secured-core PC <br> 
+차원이 다른 속도 WI-FI 6E <br> 
+휴대폰의 앱이나 파일을 갤럭시 북에서도 활용가능한 앱 지원<br> 
+공시-가격: 1499000원 
+</p>
+</div>
+
+<div data-role="collapsible"> 
+<img src="computer/monitor.jpg"> 
+<h1> 오디세이 Neo G7 107.9cm</h1>
+<p> 영상 화질의 정점 퀀텀 매트릭스 기술 <br> 
+VESA 디스플레이 HDR600 <br> 
+게임 취향에 맞는 화면조정 플랙스 무브 스크린 <br> 
+4k해상도에서 즐기는 놀라운 속도 <br> 
+Tv처럼 바로 즐기는 스마트 허브 <br> 
+공시가격 1250000원 
+</p>
+</div>  
+
+<div data-role="collapsible"> 
+<img src="computer/allinone.jpg"> 
+<h1> 올인원 60.5cm Core i3 256GB</h1>
+<p> 공간과 조화를 이루는 새로운 일체형 PC <br> 
+좁은 공간에도 편리하고 여유롭게 설치 <br> 
+강력한 성능의 인텔 CPU <br> 
+한번의 터치로 다양한 기기를 연결 가능 <br> 
+zero Screw 메모리 도어 <br> 
+공시가격: 859000원 
+</p>
+</div>
+
+<div data-role="collapsible"> 
+<img src="computer/desktop.jpg"> 
+<h1> 데스크탑 TowerCore i7 1TB</h1>
+<p> 세련된 블랙의 견고한 디자인 <br> 
+12세대 Intel® Core™ 프로세서와<br>  
+  GeForce® RTX 3050 그래픽 <br> 
+  빠르고 넉넉한 듀얼 스토리지와 <br> 
+  손쉽게 동영상 편집하는 studio plus <br> 
+  공시가격: 2805000원 
+</p> 
+</div>
+
+<div data-role="footer" data-position="fixed">  
+<h2>Copyright &copy; 2023 hongminhwa </h2>
+</div>
+
+</div>
+
+
+<div data-role="page" id="TV">
+<div data-role="header" data-theme="b" data-position="fixed">
+<h1>텔레비전 </h1>
+</div> 
+<div data-role="collapsible">  
+<img src="TV/QLED4K.jpg">
+<h1>QLED 4K</h1>  
+<p> 장면에 맞게 최적화된 컬러표현과 명암비 <br> 
+흑백 명암비를 디테일하게 표현하는 퀀텀 기술 <br>
+10억개의 컬러로 구현하는 독보적 화질 <br> 
+뉴럴 네트워크로 강화되는 3차원의 깊이감 <br> 
+화면속 동작에 움직이는 무빙 사운드 <br> 
+공시가격 : 4999000원 
+</p>
+</div>
+<div data-role="collapsible">  
+<img src="TV/QLED8K.jpg"> 
+<h1> QLED 8K</h1>
+<p> 압도적 기술력 퀀텀 디스플레이 8K <br> 
+선명하고 입체적인 Real8K해상도 <br> 
+디테일이 살아나는 퀀텀 HDR 2000 <br> 
+삼성만의 기술, AI 퀀텀 프로세서 8K <br> 
+AI 컨트롤로 밝기 사운드 최적화 <br> 
+공시가격: 7990000원 </p>
+</div>
+ 
+<div data-role="collapsible"> 
+<img src="TV/NEOQLED4K.jpg">  
+<h1> NEOQLED 4K </h1>
+<p> 새로운 차원의 화질, NEO퀀텀 디스플레이 <br> 
+압도적 디테일을 표현하는 NEO퀀텀 매트릭스 기술 <br> 
+NEO 퀀텀 프로세서 4K <br> 
+뉴럴 네트워크로 강화되는 3차원의 깊이감 <br> 
+10억개의 컬러로 구현하는 독보적 화질 <br> 
+공시가격: 619000원 
+</div>
+
+
+<div data-role="collapsible"> 
+<img src="TV/NEOQLED8K.jpg"> 
+<h1> NEOQLED 8K</h1>
+<p>눈앞에서 보는듯한 압도적인 디테일 <br> 
+10억개의 컬러로 구현하는 독보적 화질 <br> 
+실제에 가까운 색상을 구현하는 스마트 캘리브레이션 PRO <br> 
+궁극의 사운드 경험 DolbyAtoms <br> 
+공시가격: 739000원.
+</p>
+</div>
+<div data-role="footer" data-position="fixed">  
+ <h2>Copyright &copy; 2023 hongminhwa </h2></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

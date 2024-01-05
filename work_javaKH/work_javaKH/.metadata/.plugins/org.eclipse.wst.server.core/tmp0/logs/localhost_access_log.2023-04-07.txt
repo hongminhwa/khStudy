@@ -1,0 +1,12 @@
+127.0.0.1 - - [07/Apr/2023:14:59:06 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [07/Apr/2023:14:59:06 +0900] "GET /jsp02/hyehwaguest/Index.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [07/Apr/2023:14:59:08 +0900] "GET /jsp02/hyehwaguest_servlet/list.do HTTP/1.1" 200 1711
+0:0:0:0:0:0:0:1 - - [07/Apr/2023:14:59:08 +0900] "GET /jsp02/include/jquery-3.6.3.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Apr/2023:14:59:08 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [07/Apr/2023:14:59:12 +0900] "GET /jsp02/hyehwaguest/write.jsp HTTP/1.1" 200 1787
+0:0:0:0:0:0:0:1 - - [07/Apr/2023:14:59:25 +0900] "POST /jsp02/hyehwaguest_servlet/insert.do HTTP/1.1" 500 2959
+127.0.0.1 - - [07/Apr/2023:15:38:12 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [07/Apr/2023:15:38:14 +0900] "GET /jsp02/hyehwaguest/Index.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [07/Apr/2023:15:38:16 +0900] "GET /jsp02/hyehwaguest_servlet/list.do HTTP/1.1" 200 1716
+0:0:0:0:0:0:0:1 - - [07/Apr/2023:15:38:19 +0900] "GET /jsp02/hyehwaguest/write.jsp HTTP/1.1" 200 1787
+0:0:0:0:0:0:0:1 - - [07/Apr/2023:15:38:32 +0900] "POST /jsp02/hyehwaguest_servlet/insert.do HTTP/1.1" 500 2959

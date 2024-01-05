@@ -1,0 +1,121 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>Insert title here</title>
+<%@ include file="../include/header.jsp" %>
+<style type="text/css">
+.title {
+  margin-top: 90px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600
+}
+
+body {
+	background-color: #F5FFFA;
+}
+.home h2{
+	margin-top: 70px;
+	text-align: center; 
+	font-family: brush script mt;
+ 	color:blue;
+}
+.home a{
+	text-decoration: none;
+	color: black;
+}
+.header {
+	display: float;
+}
+
+.container {
+   position: relative; 
+   bottom: 600px; 
+   left: -240px;
+}
+
+.container p{ 
+	font-size: 50px;
+}
+
+
+
+</style>
+<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+</head>
+<div class="home"> 
+<h2 style="font-size: 100px;"><a href="Index2.jsp">hyehwaPlate</a></h2><br><br>
+<hr> 
+</div>
+<body>  
+<div class="header">  
+
+<img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230418_32%2F1681777666932R0qql_JPEG%2F20230415_154720.jpg"  style="width: 600px; height: 300px; ">
+<img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyMzAzMjhfMTg0%2FMDAxNjc5OTk4NjQzMjAx.zYlYF24uxyHWktFHKdr8dqJoKAnw-zLfErEl5OJXQIcg.oUfu2NPFuPqLj_ZPiP65wfviHmi_SpEhnse9jKOPzw4g.JPEG%2F1E156CC4-ED91-43DB-908A-72BA617F7F92.jpeg" style="width: 600px; height: 300px;">
+<img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyMzAxMjNfMTg4%2FMDAxNjc0NDYwMjQ5MDQ5.CGZjdNnI1T2Zom1NAXAIWj-VNlCt1D3MKFt3Ucjac6Yg.e24BG9YW77GwEhxCxZ7h8Q_B0xswuBpCXOq4U391q8sg.JPEG%2FSNOW_20230123_124750_120.jpg" style="width: 600px; height: 300px; "> 
+<img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyMjEyMzBfMjg0%2FMDAxNjcyMzk0NzMwMjEy.4uV-HcqUpt5nteB7LwwLJ_B8-0XcU5nmbzPhzNEIHXYg.2bLVpUrSQG0ztTvZZEzhqSKq3GYR8Uz8WQqUC1H2u18g.JPEG%2F20221230_174641.jpg" style="width: 600px; height: 300px; ">
+<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjEyMTlfMTk5%2FMDAxNjcxNDMyOTY4OTYy.2NzMRsyZlemueBE1TKrhp31BOnxbElQqIkarm0A9V04g.7Jwww7wFtXCi6sdSoFhakevVMVmozNgPV9ZQKa1sS_Ug.JPEG.dkfk0901%2FIMG_6406.jpg" style="width: 600px; height: 300px;">
+
+</div>
+<div  align="right" class="map">
+
+
+
+
+<div id="daumRoughmapContainer1682506317677" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+3. 실행 스크립트
+<script charset="UTF-8">
+	new daum.roughmap.Lander({
+		"timestamp" : "1682506317677",
+		"key" : "2ekgr",
+		"mapWidth" : "800",
+		"mapHeight" : "800"
+	}).render();
+</script>
+</div>
+<div class="container"> 
+<h1 style="text-align: center; font-size: 85px;">은행골 대학로점</h1>
+<hr>
+<p>주소 서울 종로구 창경궁로26길 38 </p>
+<p>혜화역 3번출구에서 267m </p>
+<p>주차공간 없음</p>
+<p>영업시간 11:00~21:00  </p>
+<p>브레이크타임 15:30~16:30</p>
+<p>라스트오더 21:30</p>
+<p>전화번호 010-2123-5293</p>
+<p>모둠초밥</p>
+<p>특진초밥 (6종12pcs)  22000원</p>
+ <p>특선초밥 (5종 12pcs) 17000원</p>
+ <p>특미초밥 (4종 12pcs) 12000원 </p>
+ <p>단품초밥</p>
+ <p>도로 Set(12pcs) 29000원</p>
+ <p>활어초밥 (12pcs) 18000원 </p>
+ <p>연어초밥 (12pcs) 17000원</p>
+  <p>참치회</p>
+  <p>가마도로 (목살부분) 36000원</p>
+  <p>배꼽살  (대뱃살) 36000원</p>
+  <p>오도로 (대뱃살) 36000원</p>
+  <p>쥬도로 (목살부분) 36000원</p>
+  <p>광어+연어 30000원</p>
+  <p>풀코스  (3~4인) 6000원</p>
+  <p>반코스 (2인) 130000원</p>
+
+<hr>
+<p>
+혜화에서 초잡과 참치회 전문점으로 운영하고있는 은행골 대학로지점입니다.</p>
+</div>
+
+
+
+
+
+
+
+</body>

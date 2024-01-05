@@ -1,0 +1,35 @@
+package ch08;
+
+public class Member {  
+	private String name; 
+	private String userid; 
+	private int money;
+	private String grade; 
+	
+	public Member() {
+		 this("김철수","kim",50000,"");
+		 System.out.println();
+	}
+
+	public Member(String name, String userid, int money, String grade) {
+		System.out.println("===================");
+		this.name = name;
+		this.userid = userid;
+		this.money = money; 
+		this.grade = grade; 
+		
+		
+			
+		}
+				
+		}
+		
+	
+
+////		if( pay >= 100000) {
+////			grade = "Gold";
+////		
+////		}else if (pay <= 100000) {
+////			grade = "Silver";
+//		}
+

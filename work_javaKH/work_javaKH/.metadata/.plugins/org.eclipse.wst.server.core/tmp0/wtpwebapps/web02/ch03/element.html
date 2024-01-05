@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body> 
+<ul>
+<li>아이템1</li>
+<li>아이템2</li>
+<li>아이템3</li>
+</ul>
+
+<ul>
+<li>아이템4</li>
+<li>아이템5</li>
+<li>아이템6</li>
+</ul>
+
+
+<script type="text/javascript">
+//getElementByTagName("태그이름") 지금은 jquery로 대체중임 
+var list = document.getElementsByTagName("ul")[1];
+var allitems = list.getElementByTagName("li"); 
+
+
+for(i=0; i<allitems.length; i++) {
+	alert(allitems[i]);
+}
+
+
+
+
+</script>
+
+
+</body>
+</html>

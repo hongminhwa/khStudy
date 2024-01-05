@@ -1,0 +1,105 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>Insert title here</title>
+<%@ include file="../include/header.jsp" %>
+<style type="text/css">
+.title {
+  margin-top: 90px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600
+}
+
+body {
+	background-color: #F5FFFA;
+}
+.home h2{
+	margin-top: 70px;
+	text-align: center; 
+	font-family: brush script mt;
+ 	color:blue;
+}
+.home a{
+	text-decoration: none;
+	color: black;
+}
+.header {
+	display: float;
+}
+
+.container {
+   position: relative; 
+   bottom: 600px; 
+   left: -240px;
+}
+
+.container p{ 
+	font-size: 50px;
+}
+
+
+
+</style>
+<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+</head>
+<div class="home"> 
+<h2 style="font-size: 100px;"><a href="Index2.jsp">hyehwaPlate</a></h2><br><br>
+<hr> 
+</div>
+<body>  
+<div class="header">  
+
+<img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20170524_58%2F1495628209473Ct6vK_JPEG%2F186474614668696_0.jpeg"  style="width: 600px; height: 300px; ">
+<img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyMzA0MjRfMjU1%2FMDAxNjgyMzA0MjcwMDY2.EjMsweMZ_ZA6-0QquSE1RGZef6wkoYbLy_ceR02C5Jkg.lYeoTCbpAj5TehNyFTrh_qsY4CBIq_lLz3ESfw3zGxIg.JPEG%2F1682304255558.jpg" style="width: 600px; height: 300px;">
+<img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyMzA0MjRfOTIg%2FMDAxNjgyMzA0Mjc2NTE3.KsQQIPU99thzNLQBVLswyVfm4XfuNtATu8DOQVVskV8g.OK0z6-3mYTPCfM2EOFVs7PyNZnWOjCmGl9W4uODVibIg.JPEG%2F1682304242379.jpg" style="width: 600px; height: 300px; "> 
+<img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20170524_36%2F14956282099409smt7_JPEG%2F186474614668696_4.jpeg" style="width: 600px; height: 300px; ">
+<img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20170524_196%2F1495628209840hRbYf_JPEG%2F186474614668696_3.jpeg" style="width: 600px; height: 300px;">
+
+</div>
+<div  align="right" class="map">
+<div id="daumRoughmapContainer1682594340133" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+3. 실행 스크립트
+<script charset="UTF-8">
+	new daum.roughmap.Lander({
+		"timestamp" : "1682594340133",
+		"key" : "2ekyr",
+		"mapWidth" : "800",
+		"mapHeight" : "800"
+	}).render();
+</script>
+</div>
+
+<div class="container"> 
+<h1 style="text-align: center; font-size: 85px; ">오늘와인한잔 대학로점</h1>
+<hr>
+<p>주소 서울 종로구 창경궁로 240-7  </p>
+<p>혜화역 4번출구에서 271m</p>
+<p>주차공간 없음</p>
+<p>매일 16:00~ 01:00 </p>
+<p>라스트오더 00:30</p>
+<p>전화번호 070-7738-7768</p>
+<p>치즈 DIY박스 21900원 </p>
+<p>더블치즈DIY 박스 29900원</p>
+<p>쉬림프 로제 파스타 14400원</p> 
+<p>명란크림파스타 14000원</p>
+<p>다양한 종류의 와인</p>
+<hr> 
+<p>.</p>
+</div>
+
+
+
+
+
+
+
+</body>

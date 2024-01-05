@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Map</title>
+</head>
+<body>
+<!-- usemap="#맵의 이름" -->
+<img alt="" src="../images/kids.jpg" usemap="#toymap"> 
+<!-- map태그의 name은 usemap의 맵이름과 같아야한다. -->
+<map name="toymap">
+<!--  circle 좌표계 설정 coords="원점의 x좌표, 원점의 y좌표, 반지름" -->
+<area shape="circle" coords="100,100,50" href="http://google.com"> 
+
+<!-- -rect 좌표계 설정 coords="x축방향값, y축 방향값, x크기값, y크기기-->
+<area shape="rect" coords="220,10,380,200" href="http://daum.net"> 
+
+</map>
+
+
+</body>
+</html>

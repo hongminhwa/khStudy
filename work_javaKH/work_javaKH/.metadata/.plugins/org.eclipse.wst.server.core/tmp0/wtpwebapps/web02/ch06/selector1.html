@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>selector1</title>
+</head>
+<!-- -이 코드가 없으면 jquery는 실행되지않는다. -->
+<script src="../include/jquery-3.6.3.min.js"></script>
+<!-- 사이트에서 링크 가져올 때 -->
+<!-- <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script> -->
+<script type="text/javascript">
+//$는 jquery 때 사용. 
+// $(선택자).이벤트(콜백함수) 
+// $(function() {}); 약식표현 
+$(document).ready(function() {   //현재 문서가 로딩되면 자동으로 실행한다. (콜백함수), <body onload="함수호출">과 같은 효과
+$("h2").click(function() { //annonymus이기 대문에 세미콜론 붙여야함.
+	$(this).hide();  
+});	
+});
+</script>
+</head> 
+<body>
+
+
+<h2>첫번쨰 </h2>
+<h2>두번째</h2>
+<h2>세번째</h2>
+</body>
+</html>

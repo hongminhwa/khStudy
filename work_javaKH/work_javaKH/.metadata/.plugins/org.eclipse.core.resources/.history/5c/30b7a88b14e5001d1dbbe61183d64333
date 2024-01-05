@@ -1,0 +1,114 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>Insert title here</title>
+<%@ include file="../include/header.jsp" %>
+<style type="text/css">
+.title {
+  margin-top: 90px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600
+}
+
+body {
+	background-color: #F5FFFA;
+}
+.home h2{
+	margin-top: 70px;
+	text-align: center; 
+	font-family: brush script mt;
+ 	color:blue;
+}
+.home a{
+	text-decoration: none;
+	color: black;
+}
+.header {
+	display: float;
+}
+
+.container {
+   position: relative; 
+   bottom: 600px; 
+   left: -240px;
+}
+
+.container p{ 
+	font-size: 50px;
+}
+
+
+
+</style>
+<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+</head>
+<div class="home"> 
+<h2 style="font-size: 100px;"><a href="Index2.jsp">hyehwaPlate</a></h2><br><br>
+<hr> 
+</div>
+<body>  
+<div class="header">  
+
+<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA4MDlfMjkz%2FMDAxNjYwMDM4NzQ2MjM5._PKA-4I8HLqq6oQZzOPo3-CfnuUFpe8FuNMu2oZIodYg.9lAcbL_M4YTPhJWwNFzg8h8FzSoTVta8udoCvugtzwAg.JPEG.signalyeon%2F%25C4%25DA%25C4%25DA%25C0%25CF%25B6%25F36.JPG" style="width: 600px; height: 300px;">
+<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA5MjhfNTQg%2FMDAxNjY0MzY0MTQwMjQ0.JN_imQjIVVWEGJll3lPVc2tivwqSWWZ1qndWtYVkW-0g.523MaXPDV39nY1Epba1f57Ej1jtM8VDQ4PLKMMyWfwgg.JPEG.gagasao%2F1664364138670.jpg" style="width: 600px; height: 300px; "> 
+<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjEwMjNfMTgg%2FMDAxNjY2NTI3ODEzMTg1.-p42g990wPYY9_Mpr9_gAJ-6CDFq8Sv2oXqpDLMUMdEg.1cQIRt2CdmnaUvHC8-RYzui4zojTHbn69JOmPUEyH-0g.JPEG.dreamer_moon%2F1666527657759.jpg" style="width: 600px; height: 300px; ">
+<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA4MDlfMjYz%2FMDAxNjYwMDM4NzQ2MjQ1.qSpnnCdAUS2afbZZGEexdpUqa8USgiUV2PXAX08H6Lcg.8o64iWFuSuzKX7v0hrZGtA4BdneC34qoV9zz1KpHoOwg.JPEG.signalyeon%2F%25C4%25DA%25C4%25DA%25C0%25CF%25B6%25F35.JPG" style="width: 600px; height: 300px; ">
+<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjEyMDlfMjI0%2FMDAxNjcwNTY4ODgyOTM1.hyKXP2-OpusqyTRsXBeR7CnL2-iTWqHJbESmZBjjSPUg.R3U-wRTLlLzxd8I5h-dmt_LdGSQ-WPzATl3iShDzP9cg.JPEG.dr_lapin%2F1670568881734.jpg" style="width: 600px;  height: 300px;">
+</div>
+
+<div  align="right" class="map">
+
+
+
+<div id="daumRoughmapContainer1682610909382" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+
+3. 실행 스크립트
+
+<script charset="UTF-8">
+	new daum.roughmap.Lander({
+		"timestamp" : "1682610909382",
+		"key" : "2em2n",
+		"mapWidth" : "800",
+		"mapHeight" : "800"
+	}).render();
+</script>
+</div>
+
+<div class="container"> 
+<h1 style="text-align: center; font-size: 85px; ">무던 </h1>
+<hr>
+<p>주소 서울 종로구 성균관로 4길 3   </p>
+<p>혜화역 4번출구에서 452m</p>
+<p>주차공간 없음</p>
+<p> 13:00~22:00  </p>
+<p>21:30 라스트오더 </p> 
+<p>전화번호 02-765-0550</p>
+<p>메뉴</p>
+<p>gelato 1가지맛 5000원 </p>
+<p>gelato 2가지맛 8800원 </p> 
+<p>gelato 3가지맛 9500원</p>
+<p>4가지맛 500g 17000원</p>
+<p>4가지맛 or 5가지맛 750g 20000원</p>
+<p>4가지맛 or 5가지맛 1000g 28000원</p>
+<p>플레인 크로플 6500원</p>
+<p>크림치즈프렛즐 4500원</p>
+<hr> 
+<p>동화속 유럽의 작은 마을을 옮겨놓은 수제 젤라또 카페</p>
+</div>
+
+
+
+
+
+
+
+

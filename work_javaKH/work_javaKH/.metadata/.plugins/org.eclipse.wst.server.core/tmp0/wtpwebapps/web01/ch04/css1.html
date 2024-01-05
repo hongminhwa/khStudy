@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+p {
+   color: blue; 
+   background-color: yellow;
+   font-size:40px;
+}
+p.style2 {
+	font-size: 50px; 
+	color: aqua;
+}
+
+</style>
+</head>
+<body>
+<!-- 요소 충돌 시 인라인 시트가 가장 먼저 적용됨.-->
+<p style="color:aqua; background-color: fuchsia;">This is a paragraph.</p> 
+ 
+<p class="style1">두번째 단락</p>
+<p class="style2">세번째 단락</p>
+<span class="style2">첫번쨰 span</span> 
+</body>
+</html>

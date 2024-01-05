@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Second-project</title>
+<link rel="stylesheet" type="text/css" href="./include/main_style.css">
+
+</head>
+<body>
+	<header>   
+		<h1>Second Project</h1>
+	</header>
+
+	<div class="main_screen">
+		<img src="./mobile/samsung.jpg" width="100%" height="400px">
+		<h1 class="main_screen_text">대한민국 1등 가전제품 삼성!</h1>
+	</div>
+
+	<div id="containor">
+		<div id="box-left"></div>
+		<div id="boxcenter">
+			<p><a href="./TV.html" target="_blank"><strong>텔레비젼</strong></a></p>
+			
+			<p>	<a href="./mobile.html" target="_blank"><strong>모바일기기</strong></a>
+			
+			<p>	<a href="./kitchen2.html" target="_blank"><strong>주방가전</strong></a>
+			
+			<p>	<a href="./household.html" target="_blank"><strong>생활가전</strong></a>
+			
+			<p>	<a href="./computer.html" target="_blank"><strong>pc/주변기기</strong> </a>
+				
+		</div>
+	</div>
+
+	<div id="bottom">
+		<div id="box-down">
+			<div id="box-low">
+				<!-- <p><a href="https://www.samsungsvc.co.kr/" target="_blank"><strong>서비스센터</strong></a>
+    <p><a href="https://www.samsung.com/sec/digitalplaza/centerMain/" target="_blank"><strong> 매장찾기</strong></a>
+    <p><a href="https://www.samsung.com/sec/" target="_blank" class:"bnb"><strong> 공식 홈페이지</strong></a> 
+    <p><button type="button" onclick= "location.href='./joinmember.html';"width:250px;>회원가입</button> -->
+				<input type="button" value="서비스센터" onclick="load1()"><br> 
+				 <input type="button" value="매장찾기" onclick="load2()"><br> 
+			  <input type="button" value="공식홈페이지" onclick="load3()"> <br>
+			 <input type="button" value="회원가입" onclick="load4()"> <br>
+			<input type="button"  value="회원가입2" onclick="load5()"> <br> 
+ 			<input type="button"   value="회원가입3" onclick="load6()"> <br>  			
+ 			</div> 
+		</div>
+	</div>
+
+	<script type="text/javascript">
+/* function winClose() {
+		self.close(); 	
+}*/
+alert("메인화면입니다.");
+function load1() {
+	 window.location.href = "https://www.samsungsvc.co.kr";
+}
+function load2()  {
+d	window.location.href= "https://www.samsung.com/sec/digitalplaza/centerMain/";
+}
+function load3() {
+	window.location.href="https://www.samsung.com/sec/";
+
+}
+function load4() {
+	window.location.href='./joinmember.html';
+}
+
+function load5() {
+	window.location.href = './regularform.html';
+	
+	
+}
+function load6() {
+	window.location.href='./reg_test_form.html';
+}
+</script>
+
+	<div align="center">
+		<footer>
+			<h2>Copyright &copy; 2023 hongminhwa</h2>
+		</footer>
+	</div>
+</body>
+</html>

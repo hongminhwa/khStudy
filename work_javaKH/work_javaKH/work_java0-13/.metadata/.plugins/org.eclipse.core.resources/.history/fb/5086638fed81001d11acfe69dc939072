@@ -1,0 +1,37 @@
+package ch07;
+
+public class PersonUse2 {    
+	public static void main(String[] args) {
+		
+		Person2 p2 = new Person2();
+		p2.setname("홍길동");
+		p2.setAge(30); 
+		p2.setEmail("hong@naver.com");
+		p2.setAddress("서울시 강남구 압구정동");
+		
+		System.out.println("이름: " + p2.getName());
+		System.out.println("나이 : " + p2.getAge());
+		System.out.println("이메일 :" + p2.getEmail());
+		System.out.println("주소 :" + p2.getAddress());
+		
+		
+		
+		Person2 bnb = new Person2();
+		bnb.setname("신사임당"); 
+		bnb.setAge(25);
+		bnb.setEmail("shin@gmail.com"); 
+		bnb.setAddress("서울시 종로구 혜화동");
+		
+		System.out.println("이름: " + bnb.getName());
+		System.out.println("나이 : " + bnb.getAge());
+		System.out.println("이메일 주소 :" + bnb.getEmail());
+		System.out.println("집 주소  :" + bnb.getAddress()); 
+		
+	    
+		
+	}
+	
+	
+	  
+		
+}

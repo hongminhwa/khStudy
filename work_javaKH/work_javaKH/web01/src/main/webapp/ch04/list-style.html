@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>list style</title>
+<style type="text/css">
+ul li {list-style-type:square;} 
+.class1 li {list-style-type:lower-roman;}
+.class2 li {list-style-type: upper-alpha;}
+.class3 li {list-style-type: lower-alpha;}
+#id1, #id2 {list-style-position:inside;}
+ /*list-style-position: 목록의 마커 위치 지정, inside:문단안쪽  */
+ #id3 {list-style-image: url("../images/star-type.jpg");} /*목록 마커를 이미지로 처리 */ 
+ 
+
+
+</style>
+</head>
+<body>
+<ul>
+<li>AaBbCc스타일1</li>
+<ol class="class1"> 
+<li>AaBbCc스타일1</li>
+<li>AaBbCc스타일1</li>
+<li>AaBbCc스타일1</li>
+ </ol>
+
+<li id="id1">AaBbCc스타일2</li>
+<ol class="class2"> 
+<li>AaBbCc스타일1</li>
+<li>AaBbCc스타일1</li>
+<li>AaBbCc스타일1</li>
+ </ol>
+ <li id="id1">AaBbCc스타일3</li>
+<ol id="id2" class="class3"> 
+<li>AaBbCc스타일3-1</li>
+<li>AaBbCc스타일3-2</li>
+ </ol>
+ <li id="id3">AaBbCc스타일</li>
+<ol class="class2"> 
+<li>AaBbCc스타일1</li>
+<li>AaBbCc스타일1</li>
+<li>AaBbCc스타일1</li>
+ </ol>
+ 
+ 
+</ul>
+
+
+</body>
+</html>

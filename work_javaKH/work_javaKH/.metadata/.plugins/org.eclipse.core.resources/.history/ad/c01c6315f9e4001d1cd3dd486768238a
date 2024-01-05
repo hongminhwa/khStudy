@@ -1,0 +1,109 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>Insert title here</title>
+<%@ include file="../include/header.jsp" %>
+<style type="text/css">
+.title {
+  margin-top: 90px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600
+}
+
+body {
+	background-color: #F5FFFA;
+}
+.home h2{
+	margin-top: 70px;
+	text-align: center; 
+	font-family: brush script mt;
+ 	color:blue;
+}
+.home a{
+	text-decoration: none;
+	color: black;
+}
+.header {
+	display: float;
+}
+
+.container {
+   position: relative; 
+   bottom: 600px; 
+   left: -240px;
+}
+
+.container p{ 
+	font-size: 50px;
+}
+
+
+
+</style>
+<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+</head>
+<div class="home"> 
+<h2 style="font-size: 100px;"><a href="Index2.jsp">hyehwaPlate</a></h2><br><br>
+<hr> 
+</div>
+<body>  
+<div class="header">  
+
+<img src=""  style="width: 600px; height: 300px; ">
+<img src="" style="width: 600px; height: 300px;">
+<img src="" style="width: 600px; height: 300px; "> 
+<img src="" style="width: 600px; height: 300px; ">
+<img src="" style="width: 600px; height: 300px; ">
+</div>
+<div  align="right" class="map">
+
+
+<div id="daumRoughmapContainer1682599092717" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+3. 실행 스크립트
+<script charset="UTF-8">
+	new daum.roughmap.Lander({
+		"timestamp" : "1682599092717",
+		"key" : "2emzj",
+		"mapWidth" : "800",
+		"mapHeight" : "800"
+	}).render();
+</script>
+</div>
+
+<div class="container"> 
+<h1 style="text-align: center; font-size: 85px; ">고엔</h1>
+<hr>
+<p>주소 서울 종로구 창경궁로 255  </p>
+<p>혜화역 4번출구에서 213m</p>
+<p>주차공간 없음</p>
+<p>매일 16:30~01:00 </p> 
+<p>라스트오더 00:00</p>
+<p>전화번호 0507-1319-5042</p>
+<p>메뉴</p>
+<p>고엔 베이스 하이볼 7000원</p>
+<p>숯불 수제 모듬꼬치 24000원</p> 
+<p>고엔 명란 치즈감자 18500원 </p>
+<p>매콤해물파스타전골 24000원</p> 
+<p>고엔 프리미엄 하이볼 9000원</p> 
+<p>고엔 유니크 하이볼 8000원</p> 
+<p>연어사시미  28000원</p> 
+<p>소고기 타다키 23000원</p>
+<p>모쯔나베 29000원</p> 
+<p>해물나가사키 짬뽕 23000원</p>
+<hr> 
+</div>
+
+
+
+
+
+
+

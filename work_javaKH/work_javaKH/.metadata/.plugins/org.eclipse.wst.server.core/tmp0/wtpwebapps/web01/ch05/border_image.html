@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+#borderimg1 {
+	border: 10px solid;
+	padding: 15px;
+	border-image: url(../images/border.png) 30 round; 
+}
+#borderimg2 {
+	border: 10px solid;
+	padding: 15px;
+	border-image: url(../images/border.png) 30 stretch; 
+}
+
+
+
+
+
+
+</style>
+
+</head>
+<body>
+   <h1> 보더 이미지</h1>
+   <p> border-image속성은 요소 주의의 경계로 사용할 이미지를 지정 </p>
+   <p id="borderimg1"> round 옵션은 영역을 채울 이미지 타일이 필요한 경우 이미지 패턴이 조정</p>
+   <p id="borderimg2"> stretch 옵션은 이미지가 영역을 채우도록 확장. </p>
+   <p>원본이미지 : </p>
+   <img src="../images/border.png"> 
+   
+   <p> <strong> Note:  </strong> IE10및 이전버전은 테두리 이미지 속성을 지원하지 않는다. </p>
+   
+</body>
+</html>

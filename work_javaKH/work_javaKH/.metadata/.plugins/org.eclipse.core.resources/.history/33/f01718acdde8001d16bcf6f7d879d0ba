@@ -1,0 +1,60 @@
+package hyehwaguest;
+
+import java.io.IOException;
+import java.util.List;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import hyehwaguest.dao.HyehwaGuestDAO;
+import hyehwaguest.dto.HyehwaGuestDTO;
+   
+
+@WebServlet("/hyehwaguest_servlet/*") //공통 uri
+public class HyehwaGuestController extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+ 
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) 
+		throws ServletException, IOException { 
+		
+		String uri=request.getRequestURI(); 
+		System.out.println(uri);
+		   HyehwaGuestDAO dao=new HyehwaGuestDAO();
+		if(uri.indexOf("list.do") != -1) {
+			/* List<HyehwaGuestDTO> items=dao.getList(); */	
+			 List<HyehwaGuestDTO> items=dao.getList(); 
+			 request.setAttribute("list",items);
+			 request.setAttribute("count", items.size());//레코드 갯수 값
+			 String page="/hyehwaguest/list.jsp"; 
+			 RequestDispatcher rd= request.getRequestDispatcher(page);
+			 rd.forward(request, response);			
+		}else if(uri.indexOf("insert.do") != -1) {
+				String name=request.getParameter("name");
+				String email=request.getParameter("email"); 
+				String passwd=request.getParameter("passwd"); 
+				String content=request.getParameter("content"); 
+				HyehwaGuestDTO dto=new HyehwaGuestDTO();
+				dto.setName(name);
+				dto.setEmail(email);
+				dto.setPasswd(passwd);
+				dto.setContent(content);
+				dao.hyehwaInsert(dto); //dao에 레코드 추가 요청 오류발생부분2
+				//방명록 목록 갱신처리 
+				String url="/hyehwaguest_servlet/list.do"; 
+				response.sendRedirect(request.getContextPath()+url);
+				
+			
+		}
+	}
+
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+		throws ServletException, IOException {
+			doGet(request, response);
+	}
+
+}

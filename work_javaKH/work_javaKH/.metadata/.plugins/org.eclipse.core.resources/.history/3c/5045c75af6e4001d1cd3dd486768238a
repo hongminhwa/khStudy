@@ -1,0 +1,105 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>Insert title here</title>
+<%@ include file="../include/header.jsp" %>
+<style type="text/css">
+.title {
+  margin-top: 90px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600
+}
+
+body {
+	background-color: #F5FFFA;
+}
+.home h2{
+	margin-top: 70px;
+	text-align: center; 
+	font-family: brush script mt;
+ 	color:blue;
+}
+.home a{
+	text-decoration: none;
+	color: black;
+}
+.header {
+	display: float;
+}
+
+.container {
+   position: relative; 
+   bottom: 600px; 
+   left: -240px;
+}
+
+.container p{ 
+	font-size: 50px;
+}
+
+
+
+</style>
+<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+</head>
+<div class="home"> 
+<h2 style="font-size: 100px;"><a href="Index2.jsp">hyehwaPlate</a></h2><br><br>
+<hr> 
+</div>
+<body>  
+<div class="header">  
+
+<img src=""  style="width: 600px; height: 300px; ">
+<img src="" style="width: 600px; height: 300px;">
+<img src="" style="width: 600px; height: 300px; "> 
+<img src="" style="width: 600px; height: 300px; ">
+<img src="" style="width: 600px; height: 300px; ">
+</div>
+<div  align="right" class="map">
+
+<div id="daumRoughmapContainer1682598134631" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+3. 실행 스크립트
+<script charset="UTF-8">
+	new daum.roughmap.Lander({
+		"timestamp" : "1682598134631",
+		"key" : "2emz8",
+		"mapWidth" : "800",
+		"mapHeight" : "800"
+	}).render();
+</script>
+</div>
+
+<div class="container"> 
+<h1 style="text-align: center; font-size: 85px; ">코다차야 대학로점</h1>
+<hr>
+<p>주소 서울 종로구 대학로12길 13  </p>
+<p>혜화역 1번출구에서 95m</p>
+<p>주차공간 없음</p>
+<p>매일 17:30~01:30 </p> 
+<p>전화번호 02-766-7700</p>
+<p>김치볶음밥 9000원 </p>
+<p>나가사끼 짬뽕 12000원</p>
+<p>삼겹살숙주볶음 15500원</p> 
+<p>해물파전 13000원 </p>
+<p>골뱅이 소면무침 30000원</p> 
+<p>두부김치 20000원</p>
+<hr> 
+<p>100여가지의 음식을 즉석조리하여 제공하는 신개념 셀프 방식의 
+합리적인 공간으로 최근 젊은이들의 만남의 공간 아이콘으로 부상한 코다차야입니다.  </p>
+</div>
+
+
+
+
+
+
+
+</body>
